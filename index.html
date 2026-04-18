@@ -1,0 +1,373 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Codice de Estudo Haater</title>
+    <link rel="stylesheet" href="./styles.css">
+  </head>
+  <body>
+    <section id="coverScreen" class="cover-screen">
+      <div class="cover-card">
+        <div class="cover-band">acesso restrito // copia parcial</div>
+        <div class="cover-corners" aria-hidden="true">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="cover-heraldry" aria-hidden="true">
+          <div class="cover-sigil"></div>
+          <div class="cover-seal">lacre 08</div>
+        </div>
+        <p class="cover-kicker">Arquivo Recuperado // Haater Antigo</p>
+        <h1>Codice de Estudo Haater</h1>
+        <p class="cover-subtitle">tomo interditado // fragmentos de Solin</p>
+        <p class="cover-intro">
+          Copia incompleta de um volume ritual atribuido ao povo de Solin.
+          Partes do lexico sobreviveram. O resto ainda precisa ceder folha por folha.
+        </p>
+        <div class="cover-rule" aria-hidden="true"></div>
+        <div class="cover-meta">
+          <span>volume lacrado</span>
+          <span>margens instaveis</span>
+          <span>leitura assistida</span>
+        </div>
+        <p class="cover-warning">Nao leia em voz alta quando o nome soar tarde.</p>
+        <button id="openVolumeButton" type="button" class="cover-button">Abrir volume</button>
+      </div>
+    </section>
+
+    <main id="workspace" class="shell shell-hidden">
+      <section class="hero">
+        <p class="eyebrow">Haater Antigo // Sala de Estudo</p>
+        <h1>Codice de Estudo Haater</h1>
+        <p class="intro">
+          Um artefato de leitura para fragmentos rituais, margens antigas e restos de cadernos do povo de Solin.
+          A leitura fica melhor quando o texto soa como pedra, resto, silencio e peso, como se cada folha tivesse sido estudada por anos.
+        </p>
+      </section>
+
+      <section class="translator-card">
+        <div class="toolbar">
+          <div class="toolbar-group">
+            <label class="field">
+              <span>Origem</span>
+              <select id="sourceLanguage">
+                <option value="auto">Detectar automaticamente</option>
+                <option value="haater">Haater Antigo</option>
+                <option value="pt">Português</option>
+              </select>
+            </label>
+
+            <button id="swapButton" class="swap-button" type="button" aria-label="Inverter idiomas">
+              ⇄
+            </button>
+
+            <label class="field">
+              <span>Destino</span>
+              <select id="targetLanguage">
+                <option value="pt">Português</option>
+                <option value="haater">Haater Antigo</option>
+              </select>
+            </label>
+          </div>
+
+          <div class="toolbar-group actions">
+            <button id="clearButton" type="button">Limpar</button>
+            <button id="copyButton" type="button">Copiar tradução</button>
+          </div>
+        </div>
+
+        <div class="panes">
+          <section class="pane" data-folio="I">
+            <div class="pane-header">
+              <h2>Folio de Entrada</h2>
+              <span class="pane-tag">folio I</span>
+            </div>
+            <textarea
+              id="sourceText"
+              spellcheck="false"
+              placeholder="Copie uma linha do manuscrito ou escreva em Haater Antigo..."
+            ></textarea>
+          </section>
+
+          <section class="pane output-pane" data-folio="II">
+            <div class="pane-header">
+              <h2>Folio Traduzido</h2>
+              <span id="translationMode" class="pane-tag">folio II</span>
+            </div>
+            <textarea id="targetText" spellcheck="false" readonly></textarea>
+
+            <div class="status-grid">
+              <div class="status-card">
+                <span class="status-label">Idioma percebido</span>
+                <strong id="detectedLanguage">-</strong>
+              </div>
+              <div class="status-card">
+                <span class="status-label">Confianca</span>
+                <strong id="confidenceValue">-</strong>
+              </div>
+            </div>
+          </section>
+        </div>
+
+        <div class="artifact-console">
+          <div class="artifact-console-top">
+            <div>
+              <span class="status-label">Margem do Artefato</span>
+              <p id="artifactMessage" class="artifact-message">
+                o artefato espera.
+              </p>
+            </div>
+            <button id="studyButton" type="button" class="ghost-button study-button">Registrar estudo</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="progress-board">
+        <article class="detail-card">
+          <div class="detail-header">
+            <h2>Indice Lacrado</h2>
+            <p>Nem todo o lexico voltou inteiro. Parte dele ainda precisa ser recuperada como quem recompõe um livro queimado.</p>
+          </div>
+
+          <div class="unlock-controls">
+            <label class="field unlock-field">
+              <span>Frase de desbloqueio</span>
+              <input
+                id="unlockCode"
+                type="text"
+                autocomplete="off"
+                spellcheck="false"
+                placeholder="Digite a frase ritual ou um código..."
+              >
+            </label>
+
+            <div class="unlock-actions">
+              <button id="unlockButton" type="button">Desbloquear</button>
+              <button id="resetProgressButton" type="button" class="ghost-button">Resetar progresso</button>
+            </div>
+          </div>
+
+          <p id="unlockMessage" class="unlock-message">
+            O tradutor começa com lembranças incompletas.
+          </p>
+
+          <div class="status-grid progress-grid">
+            <div class="status-card">
+              <span class="status-label">Palavras liberadas</span>
+              <strong id="progressWords">-</strong>
+            </div>
+            <div class="status-card">
+              <span class="status-label">Fragmentos abertos</span>
+              <strong id="progressFragments">-</strong>
+            </div>
+            <div class="status-card">
+              <span class="status-label">Folios abertos</span>
+              <strong id="progressPages">-</strong>
+            </div>
+          </div>
+        </article>
+
+        <article class="detail-card">
+          <div class="detail-header">
+            <h2>Folhas Lacradas</h2>
+            <p>Tabuas, cadernos e folhas que respondem aos poucos.</p>
+          </div>
+          <div id="fragmentList" class="fragment-list"></div>
+        </article>
+      </section>
+
+      <section class="library-board">
+        <article class="detail-card">
+          <div class="detail-header">
+            <h2>Biblioteca Recuperada</h2>
+            <p>Folhas que ja responderam e deixaram algum resto legivel na margem.</p>
+          </div>
+          <div id="recoveredLibrary" class="recovered-library"></div>
+        </article>
+      </section>
+
+      <section class="margin-board">
+        <article class="detail-card">
+          <div class="detail-header">
+            <h2>Margens Anotadas</h2>
+            <p>Notas de estudo, duvidas velhas e observacoes deixadas junto das folhas abertas.</p>
+          </div>
+          <div class="margin-workspace">
+            <section class="note-editor">
+              <div class="note-editor-header">
+                <div>
+                  <span class="note-kicker">caderno do leitor</span>
+                  <h3>Registrar anotacao</h3>
+                </div>
+                <span id="noteCount" class="pane-tag">0 notas</span>
+              </div>
+
+              <label class="field note-target-field">
+                <span>Folha escolhida</span>
+                <select id="noteTarget"></select>
+              </label>
+
+              <label class="field note-type-field">
+                <span>Tipo de anotacao</span>
+                <select id="noteType">
+                  <option value="teoria">Teoria</option>
+                  <option value="traducao">Traducao</option>
+                  <option value="suspeita">Suspeita</option>
+                  <option value="pista">Pista</option>
+                </select>
+              </label>
+
+              <label class="field note-field">
+                <span>Sua margem</span>
+                <textarea
+                  id="noteInput"
+                  class="note-input"
+                  spellcheck="false"
+                  placeholder="Escreva uma teoria, um padrao, uma palavra suspeita, uma conexao com Solin..."
+                ></textarea>
+              </label>
+
+              <div class="note-actions">
+                <button id="saveNoteButton" type="button">Salvar anotacao</button>
+                <button id="clearNoteButton" type="button" class="ghost-button">Apagar nota</button>
+              </div>
+
+              <p id="noteStatus" class="note-status">
+                Abra uma folha do manuscrito para comecar a escrever na margem.
+              </p>
+            </section>
+
+            <section class="note-ledger">
+              <div class="note-ledger-header">
+                <div>
+                  <span class="note-kicker">arquivo de estudo</span>
+                  <h3>Caderno Organizado</h3>
+                </div>
+                <div class="note-ledger-actions">
+                  <label class="field note-filter-field">
+                    <span>Filtrar</span>
+                    <select id="noteFilter">
+                      <option value="todas">Todas</option>
+                      <option value="com-notas">Com notas</option>
+                      <option value="teoria">Teorias</option>
+                      <option value="traducao">Traducoes</option>
+                      <option value="suspeita">Suspeitas</option>
+                      <option value="pista">Pistas</option>
+                    </select>
+                  </label>
+                  <button id="exportNotebookButton" type="button" class="ghost-button">Exportar dossie</button>
+                </div>
+              </div>
+              <div id="marginNotes" class="margin-notes"></div>
+            </section>
+          </div>
+        </article>
+      </section>
+
+      <section class="history-board">
+        <article class="detail-card">
+          <div class="detail-header">
+            <h2>Historico do Estudo</h2>
+            <p>Registro das costuras abertas, notas salvas e reacoes raras do volume.</p>
+          </div>
+          <div id="historyList" class="history-list"></div>
+        </article>
+      </section>
+
+      <section class="secret-board">
+        <article class="detail-card">
+          <div class="detail-header">
+            <div>
+              <h2>Camara Velada</h2>
+              <p>Restos que o volume so entrega quando certas linhas raras voltam inteiras demais.</p>
+            </div>
+            <span id="secretCount" class="pane-tag">0 restos</span>
+          </div>
+          <div id="secretArchive" class="secret-archive"></div>
+        </article>
+      </section>
+
+      <section class="details">
+        <article class="detail-card">
+          <div class="detail-header">
+            <h2>Margens Reconhecidas</h2>
+            <p>Palavras que o artefato conseguiu ligar ao lexico do Haater durante o estudo.</p>
+          </div>
+          <div id="matchesList" class="chips"></div>
+        </article>
+
+        <article class="detail-card">
+          <div class="detail-header">
+            <h2>Linhas de Estudo</h2>
+            <p>Clique para testar linhas de estudo que ja combinam com o idioma do Solin.</p>
+          </div>
+          <div id="exampleList" class="chips"></div>
+        </article>
+      </section>
+    </main>
+
+    <button id="helpButton" type="button" class="help-fab" aria-label="Como funciona o artefato">
+      ?
+    </button>
+
+    <section id="helpModal" class="help-modal" aria-hidden="true">
+      <div id="helpBackdrop" class="help-backdrop"></div>
+      <div class="help-dialog" role="dialog" aria-modal="true" aria-labelledby="helpTitle">
+        <div class="help-header">
+          <div>
+            <span class="note-kicker">nota deixada na guarda interna</span>
+            <h2 id="helpTitle">Se isto abriu para voce</h2>
+          </div>
+          <button id="helpCloseButton" type="button" class="ghost-button help-close" aria-label="Fechar ajuda">Fechar</button>
+        </div>
+
+        <div class="help-content">
+          <article class="help-block">
+            <h3>Primeira cautela</h3>
+            <p>Este volume nao responde por gentileza. Ele responde por insistencia correta. Se a capa cedeu, abra. Se nao cedeu, espere mais.</p>
+          </article>
+
+          <article class="help-block">
+            <h3>Sobre a leitura</h3>
+            <p>Copie linhas curtas. O texto antigo costuma reagir melhor a fragmentos inteiros do que a perguntas modernas. Quanto menos pressa, melhor a resposta.</p>
+          </article>
+
+          <article class="help-block">
+            <h3>Quando a margem mexer</h3>
+            <p>Se o artefato disser que ha uma folha pronta, registre o estudo. Se disser que a costura segurou, ainda nao e a hora daquela linha.</p>
+          </article>
+
+          <article class="help-block">
+            <h3>Sobre codigos e frases</h3>
+            <p>Algumas partes do tomo so cedem com formula certa. Quando um fragmento responde, a primeira folha volta com ele. O resto precisa ser estudado.</p>
+          </article>
+
+          <article class="help-block">
+            <h3>Restos velados</h3>
+            <p>As vezes uma linha rara nao devolve so traducao. Se o volume reconhecer mais do que devia, um resto secreto pode surgir na Camara Velada. Nao insista como martelo. Espere a linha certa.</p>
+          </article>
+
+          <article class="help-block">
+            <h3>Margens de pesquisa</h3>
+            <p>Escolha uma folha aberta, marque se o que voce escreve e teoria, traducao, suspeita ou pista, e prenda a nota na margem certa. Misturar folhas costuma confundir tudo.</p>
+          </article>
+
+          <article class="help-block">
+            <h3>O que vale guardar</h3>
+            <p>A Biblioteca mostra o que voltou. As Margens juntam a anotacao do artefato com a sua. O Historico nao deixa perder qual linha abriu cada costura.</p>
+          </article>
+
+          <article class="help-block">
+            <h3>Ultimo aviso</h3>
+            <p>Se o nome soar tarde, nao responda. Se a sombra vier leve, recue. Se o volume parecer calmo demais, leia de novo antes de confiar.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
