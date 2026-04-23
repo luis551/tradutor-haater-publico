@@ -20,16 +20,18 @@ python "C:\Users\expeto\Desktop\arg smo\tradutor_haater_publico_jogadores\abrir_
 ## Como usar
 
 1. Clique em `Abrir volume`.
-2. Cole uma linha ou pagina em Haater Antigo.
-3. Veja a traducao parcial ou completa no folio ao lado.
-4. Quando a margem responder, clique em `Registrar estudo`.
-5. Consulte `Biblioteca Recuperada` e `Margens Anotadas`.
-6. Escolha uma folha aberta e salve sua teoria em `Registrar anotacao`.
-7. Se bater duvida, clique no `?` no canto inferior.
-8. Acompanhe o `Historico do Estudo` pelos sinais de cada evento.
-9. Se uma reacao rara acontecer, veja se a `Camara Velada` respondeu.
-10. Use o filtro das margens e clique em `Exportar dossie` quando quiser compartilhar.
-11. O export agora sai como um arquivo `HTML` bonito, proprio para abrir no navegador ou salvar em PDF.
+2. Leia o quadro `Primeiro estudo`.
+3. Cole uma linha ou pagina em Haater Antigo na `Mesa de Traducao`.
+4. Veja a traducao parcial ou completa no folio ao lado.
+5. Quando a margem responder, clique em `Registrar estudo`.
+6. Se a frase parecer uma chave, teste no `Lacre Ritual`.
+7. Consulte `Biblioteca Recuperada` e `Margens Anotadas`.
+8. Escolha uma folha aberta e salve sua teoria em `Registrar anotacao`.
+9. Se bater duvida, clique em `Estou perdido` ou no `?`.
+10. Acompanhe o `Historico do Estudo` pelos sinais de cada evento.
+11. Se uma reacao rara acontecer, veja se a `Camara Velada` respondeu.
+12. Use o filtro das margens e clique em `Exportar dossie` quando quiser compartilhar.
+13. O export agora sai como um arquivo `HTML` bonito, proprio para abrir no navegador ou salvar em PDF.
 
 Atalho:
 

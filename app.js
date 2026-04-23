@@ -654,6 +654,433 @@
           ]
         }
       ]
+    },
+    {
+      id: "absent-wind",
+      title: "Tabua do Vento Ausente",
+      sealedTitle: "folha sem vento IX",
+      hint: "Conectivos, corpo, lugar, abertura e silencio absoluto.",
+      sealedHint: "A folha nao se move. O ar falta entre as letras.",
+      unlockHashes: [
+        "33bfcbcb39fced5428393f7cd57cba7445295789c1bc26b9e70431fa5f2beaf3",
+        "65156dccb391e2d11582b94c48286853afa18f8d7c41fe0fc56885959e959664",
+        "5ed0a71bc7d42432812daee83ca79c245e270b3ae5325bb54cdf0325137e8282"
+      ],
+      words: [
+        "ek", "ao", "kam", "dei", "dran", "mak", "ka", "vak", "torak", "orah",
+        "akh", "arakh", "ul", "vorn", "vash", "vashar", "aern", "nora", "sael", "thir",
+        "garn", "zorak", "skar", "karn", "farn", "raak", "vand", "vrok", "drok", "vadr",
+        "trak", "kesh", "varnar", "zavar", "mornar", "lom", "gor", "nethar", "nethal", "kharun"
+      ],
+      libraryLabel: "tabua recuperada",
+      libraryNote: "O idioma ganha palavras de passagem, corpo e ausencia. A leitura deixa de depender so de pedra, brasa e morte.",
+      reward: "Frio sem vento. O silencio absoluto veio.",
+      response: {
+        unlock: "o fragmento respondeu sem vento. O frio aprendeu a entrar entre as palavras. Primeira folha: {folio}.",
+        artifact: "o ar ficou parado na lombada."
+      },
+      lockedToken: "[vento ausente]",
+      pages: [
+        {
+          id: "absent-wind-1",
+          folio: "folio I",
+          title: "frio sem vento",
+          excerpt: "Hela dei vorn.\nNethar aer.",
+          annotation: "Nota de margem: aqui a ausencia vira materia. O frio nao vem pelo vento; ele chega quando o vento falta.",
+          studyTriggers: [
+            "Hela dei vorn.",
+            "Frio sem vento.",
+            "Nethar aer.",
+            "O silencio absoluto vem."
+          ]
+        },
+        {
+          id: "absent-wind-2",
+          folio: "folio II",
+          title: "junto e sob",
+          excerpt: "Reth ek drath thur.\nVeyr ul drath.",
+          annotation: "Nota de margem: a lingua aprende a juntar materia e a enterrar vinculo. O que fica nem sempre fica acima.",
+          studyTriggers: [
+            "Reth ek drath thur.",
+            "A brasa e a pedra permanecem.",
+            "Veyr ul drath.",
+            "A raiz sob a pedra."
+          ]
+        },
+        {
+          id: "absent-wind-3",
+          folio: "folio III",
+          title: "mao sobre registro",
+          excerpt: "Garn zavar varn.\nVarnar thur.",
+          annotation: "Nota de margem: estudar nao e ler limpo. E por a mao no registro e aceitar que a escrita tambem permanece.",
+          studyTriggers: [
+            "Garn zavar varn.",
+            "A mao estuda o registro.",
+            "Varnar thur.",
+            "A escrita permanece."
+          ]
+        },
+        {
+          id: "absent-wind-4",
+          folio: "folio IV",
+          title: "dentro e fora",
+          excerpt: "Akh drok.\nArakh na vrok.",
+          annotation: "Nota de margem: o dentro fecha e o fora nao abre. O texto trata passagem como estado, nao como lugar.",
+          studyTriggers: [
+            "Akh drok.",
+            "Dentro fecha.",
+            "Arakh na vrok.",
+            "Fora nao abre."
+          ]
+        },
+        {
+          id: "absent-wind-5",
+          folio: "folio V",
+          title: "morte antiga",
+          excerpt: "Kharun vara.\nNa raak. Na veth. Keth.",
+          annotation: "Nota de margem: esta forma de morte nao age como bicho nem golpe. Ela espera, nao corre, nao chama, confirma.",
+          studyTriggers: [
+            "Kharun vara.",
+            "A Morte antiga espera.",
+            "Na raak. Na veth. Keth.",
+            "Nao corre. Nao chama. Confirma."
+          ]
+        }
+      ]
+    },
+    {
+      id: "dry-words",
+      title: "Tabua das Palavras Secas",
+      sealedTitle: "indice seco X",
+      hint: "Tempo, quantidade, afirmacao e contraste.",
+      sealedHint: "Pequenas palavras raspadas. Elas ligam frases, mas nao explicam nada sozinhas.",
+      unlockHashes: [
+        "47213624e5cc780a1b31aee8ff2da8dd17b1d3d17d3e6ffa253b67854f24d5da",
+        "52990342fd1683fb273ae78b8d94f1574dc5b165d977f032b3cbf65e3d8abdf8"
+      ],
+      words: ["toren", "athar", "thak", "nusa", "ulm", "oth", "thes", "drom", "nek", "ath", "dar", "ren", "sivath"],
+      libraryLabel: "tabua recuperada",
+      libraryNote: "A lingua recupera palavras pequenas: agora, ja, novamente, inteiro, outro, pouco e muito. Sao cortes de tempo, nao conversa comum.",
+      reward: "Agora. Ja. De novo. A frase seca voltou.",
+      response: {
+        unlock: "a tabua seca respondeu. Palavras pequenas voltaram como pregos: agora, ja, novamente. Primeira folha: {folio}.",
+        artifact: "a margem contou tempo sem calendario."
+      },
+      lockedToken: "[palavra seca]",
+      pages: [
+        {
+          id: "dry-words-1",
+          folio: "folio I",
+          title: "agora e retorno",
+          excerpt: "Ath dar.\nRen toren.",
+          annotation: "Nota de margem: tempo, aqui, nao e calendario. E algo que ja aconteceu e volta a pesar.",
+          studyTriggers: [
+            "Ath dar.",
+            "Agora ja.",
+            "Ren toren.",
+            "Novamente, entao."
+          ]
+        },
+        {
+          id: "dry-words-2",
+          folio: "folio II",
+          title: "inteiro e outro",
+          excerpt: "Ulm thes.\nOth nek.",
+          annotation: "Nota de margem: o inteiro e o mesmo aparecem como peso firme. O outro surge pequeno, quase fora da margem.",
+          studyTriggers: [
+            "Ulm thes.",
+            "Inteiro e mesmo.",
+            "Oth nek.",
+            "Outro pouco."
+          ]
+        }
+      ]
+    },
+    {
+      id: "path-seal",
+      title: "Tabua da Porta Selada",
+      sealedTitle: "porta sem chave XI",
+      hint: "Rastro, porta, mapa, selo, chave e marca.",
+      sealedHint: "Ha abertura na folha, mas nenhum corte cedeu ainda.",
+      unlockHashes: [
+        "a716aeca98aa8984deb983fc86975967a064d0aeffd3a521cf88ade3b0a5ed81",
+        "4d44f791dc936cc76a8c71f92b5a5947834f14227472accebeb26acdbe3c41b9"
+      ],
+      words: ["rhast", "gorn", "sharn", "rhastvarn", "vekr", "drokth", "korak"],
+      libraryLabel: "tabua recuperada",
+      libraryNote: "O volume aprende a falar de caminho e lacre. Nem toda abertura e passagem; nem toda marca e resposta.",
+      reward: "O lacre nao abriu. A chave passou a existir.",
+      response: {
+        unlock: "a porta nao abriu. Ela apenas reconheceu que uma chave existe. Primeira folha: {folio}.",
+        artifact: "o lacre rangeu por dentro."
+      },
+      lockedToken: "[porta lacrada]",
+      pages: [
+        {
+          id: "path-seal-1",
+          folio: "folio I",
+          title: "lacre e chave",
+          excerpt: "Drokth na vrok dei vekr.",
+          annotation: "Nota de margem: a ausencia da chave e parte do lacre. A frase nao pede forca, pede correspondencia.",
+          studyTriggers: [
+            "Drokth na vrok dei vekr.",
+            "O lacre nao abre sem chave."
+          ]
+        },
+        {
+          id: "path-seal-2",
+          folio: "folio II",
+          title: "rastro marcado",
+          excerpt: "Rhast en rhastvarn.\nKorak thur.",
+          annotation: "Nota de margem: caminho e mapa sao formas diferentes de rastro. A marca fica quando o passo ja passou.",
+          studyTriggers: [
+            "Rhast en rhastvarn.",
+            "O caminho no mapa.",
+            "Korak thur.",
+            "A marca permanece."
+          ]
+        }
+      ]
+    },
+    {
+      id: "cold-matter",
+      title: "Tabua da Materia Fria",
+      sealedTitle: "cinza fria XII",
+      hint: "Terra, madeira, folha, ferrugem, cinza, luz fraca e frio endurecido.",
+      sealedHint: "A materia esta presente, mas a mao ainda nao sabe nomear seus restos.",
+      unlockHashes: [
+        "67d76e6ab6472d67fa50a163844955f1190414a2e111c0ba0690725c66246d8b",
+        "c64165c5c9a9eb7deed8f20e36cf07a87fee38b3df2bd63bcdfe82a198b79226"
+      ],
+      words: ["saelar", "durn", "tharn", "lath", "grom", "dal", "lum", "helk", "helna", "saaren", "sakh", "vashn"],
+      libraryLabel: "tabua recuperada",
+      libraryNote: "A lingua ganha materia de cenario: terra, madeira, ferrugem, cinza, gelo, neve, calor e um brilho quase morto.",
+      reward: "A cinza fria voltou a ter nome.",
+      response: {
+        unlock: "a materia fria respondeu. Cinza, ferrugem e luz fraca ganharam peso. Primeira folha: {folio}.",
+        artifact: "po frio apareceu na borda."
+      },
+      lockedToken: "[materia fria]",
+      pages: [
+        {
+          id: "cold-matter-1",
+          folio: "folio I",
+          title: "cinza e ferrugem",
+          excerpt: "Dal en grom.\nLum thur.",
+          annotation: "Nota de margem: ferrugem e cinza fria sao restos diferentes. A luz fraca permanece como quase nada.",
+          studyTriggers: [
+            "Dal en grom.",
+            "Cinza fria na ferrugem.",
+            "Lum thur.",
+            "A luz fraca permanece."
+          ]
+        },
+        {
+          id: "cold-matter-2",
+          folio: "folio II",
+          title: "gelo, neve e terra",
+          excerpt: "Helk en durn.\nHelna va aern.",
+          annotation: "Nota de margem: o frio endurece e depois cai. O ceu deixa resto sobre a terra.",
+          studyTriggers: [
+            "Helk en durn.",
+            "Gelo na terra.",
+            "Helna va aern.",
+            "Neve do ceu."
+          ]
+        }
+      ]
+    },
+    {
+      id: "broken-body",
+      title: "Tabua do Corpo Quebrado",
+      sealedTitle: "corpo em tremor XIII",
+      hint: "Cabeca, garganta, ouvido, membros, coracao, folego curto e movimento.",
+      sealedHint: "O corpo aparece em partes. A margem ainda nao sabe juntar os ossos.",
+      unlockHashes: [
+        "e34a386b771792378d43f4b181b477d6d00ebade51a6b396dbeba6be5d8a4ae0",
+        "fc7f78678de9ecd5a5630a5a50745ee9299be25c13f0e06d54eb41796bede5b2"
+      ],
+      words: ["thok", "gorl", "selak", "garnath", "drek", "kora", "halm", "sek", "mir", "dorn", "morak", "zorva", "garnen", "tharnak", "sov", "darun", "larun"],
+      libraryLabel: "tabua recuperada",
+      libraryNote: "O Haater passa a falar do corpo em partes e sinais: tremor, arrepio, folego curto, garganta, ouvido, perna e coracao.",
+      reward: "O corpo voltou quebrado, mas voltou.",
+      response: {
+        unlock: "o corpo respondeu em partes. Primeiro veio o folego curto; depois, a pele soube. Primeira folha: {folio}.",
+        artifact: "a mesa pareceu tremer uma vez."
+      },
+      lockedToken: "[corpo partido]",
+      pages: [
+        {
+          id: "broken-body-1",
+          folio: "folio I",
+          title: "folego e arrepio",
+          excerpt: "Halm sek.\nMir en skar.",
+          annotation: "Nota de margem: o corpo sabe antes da voz. Folego curto, tremor e pele fria aparecem como aviso.",
+          studyTriggers: [
+            "Halm sek.",
+            "O folego curto treme.",
+            "Mir en skar.",
+            "Arrepio na pele."
+          ]
+        },
+        {
+          id: "broken-body-2",
+          folio: "folio II",
+          title: "garganta e ouvido",
+          excerpt: "Gorl na veth.\nSelak seln.",
+          annotation: "Nota de margem: a garganta recusa chamar. O ouvido escuta antes da boca responder.",
+          studyTriggers: [
+            "Gorl na veth.",
+            "A garganta nao chama.",
+            "Selak seln.",
+            "O ouvido escuta."
+          ]
+        }
+      ]
+    },
+    {
+      id: "inner-weight",
+      title: "Tabua do Peso Interior",
+      sealedTitle: "luto sem voz XIV",
+      hint: "Medo, raiva, luto, verdade, mentira, culpa, pacto, destino e erro.",
+      sealedHint: "A folha pesa sem materia. O interior ainda nao recebeu nome.",
+      unlockHashes: [
+        "7901d99d365232366b892fa5446ac873793d4b6e46b987fe2fbc8e2a9b4d1d51",
+        "1798cfb1998addf75c1ca7b666eccf583726dc7b34542e33fb40aef57a619d4b"
+      ],
+      words: ["tevr", "krav", "valm", "rethar", "vayn", "glor", "treth", "vrel", "thurv", "veyrn", "kaern", "kharal", "savana", "savar", "orakh", "drun", "cer", "vrak", "vahrak", "cerun"],
+      libraryLabel: "tabua recuperada",
+      libraryNote: "A lingua ganha abstracoes secas. Mesmo medo, luto e destino entram como peso, marca ou brasa, nunca como confissao bonita.",
+      reward: "A verdade ficou. A mentira caiu.",
+      response: {
+        unlock: "o peso interior respondeu sem voz. A verdade ficou; a mentira perdeu o proprio chao. Primeira folha: {folio}.",
+        artifact: "o nome pesou antes da traducao."
+      },
+      lockedToken: "[peso interior]",
+      pages: [
+        {
+          id: "inner-weight-1",
+          folio: "folio I",
+          title: "verdade e mentira",
+          excerpt: "Treth thur.\nVrel khar.",
+          annotation: "Nota de margem: verdade permanece como pedra. Mentira cai como eco falso sem peso.",
+          studyTriggers: [
+            "Treth thur.",
+            "A verdade permanece.",
+            "Vrel khar.",
+            "A mentira cai."
+          ]
+        },
+        {
+          id: "inner-weight-2",
+          folio: "folio II",
+          title: "medo, culpa e pressagio",
+          excerpt: "Tevr en kaern.\nOrakh dar.",
+          annotation: "Nota de margem: medo e culpa se alojam juntos. O pressagio chega antes do esperado.",
+          studyTriggers: [
+            "Tevr en kaern.",
+            "Medo na culpa.",
+            "Orakh dar.",
+            "O pressagio ja veio."
+          ]
+        }
+      ]
+    },
+    {
+      id: "staying-people",
+      title: "Tabua do Povo Que Ficou",
+      sealedTitle: "nomes coletivos XV",
+      hint: "Voce, ele, povo, crianca, anciao, aliado, inimigo, leitor, escriba e mestre.",
+      sealedHint: "Ha presencas na borda, mas nenhuma responde inteira ainda.",
+      unlockHashes: [
+        "c1c7126844265ecc2d879b43e8244f54e65e4b6cb6484a8f6e08ca26af8a40ae",
+        "1f51b02f1cf3e07d94b99811607c089895c67cca7df065cd2b160cde4ee01ce7"
+      ],
+      words: ["tha", "sha", "shen", "han", "naren", "ithen", "uren", "thurak", "khor", "kharen", "vadrak", "zavren", "varnak", "othar", "drathak"],
+      libraryLabel: "tabua recuperada",
+      libraryNote: "O idioma passa a nomear pessoas sem perder dureza: povo, estranho, morto, guardiao, leitor e mestre.",
+      reward: "O povo ficou. Alguem ainda le.",
+      response: {
+        unlock: "o povo que ficou respondeu. Ninguem chamou alto; mesmo assim, alguem ainda le. Primeira folha: {folio}.",
+        artifact: "houve passos onde nao havia sala."
+      },
+      lockedToken: "[povo ausente]",
+      pages: [
+        {
+          id: "staying-people-1",
+          folio: "folio I",
+          title: "povo e anciao",
+          excerpt: "Naren thur.\nUren sava. Ithen zor.",
+          annotation: "Nota de margem: o povo permanece pelo anciao que lembra e pela crianca que ainda ve.",
+          studyTriggers: [
+            "Naren thur.",
+            "O povo permanece.",
+            "Uren sava. Ithen zor.",
+            "O anciao lembra. A crianca ve."
+          ]
+        },
+        {
+          id: "staying-people-2",
+          folio: "folio II",
+          title: "leitor e escriba",
+          excerpt: "Zavren zor.\nVarnak varnar.",
+          annotation: "Nota de margem: ha quem veja o rastro e ha quem prenda o rastro em registro. Ambos carregam perigo.",
+          studyTriggers: [
+            "Zavren zor.",
+            "O leitor ve.",
+            "Varnak varnar.",
+            "O escriba escreve."
+          ]
+        }
+      ]
+    },
+    {
+      id: "cold-colors",
+      title: "Tabua das Cores Frias",
+      sealedTitle: "pigmento apagado XVI",
+      hint: "Branco, preto, vermelho, azul escuro, dourado, cinza e verde.",
+      sealedHint: "A cor existe, mas o tomo ainda so reconhece sombra e roxo.",
+      unlockHashes: [
+        "c7089837fd76a169e06bb0fffe9f6035b6b22ddcb1c61b863b77d1cb95bc236f",
+        "d183f34d2cabcb6b3c452eb2b5521f4ae98c76ca24efb1fa9d8b1d36c4e237ff"
+      ],
+      words: ["vael", "mornak", "kaelar", "nethvior", "saelth", "daln", "veyral"],
+      libraryLabel: "tabua recuperada",
+      libraryNote: "As cores entram como materia: branco frio, preto fechado, vermelho de sangue, azul de roxo frio, dourado de metal e verde de raiz.",
+      reward: "A cor voltou sem parecer viva.",
+      response: {
+        unlock: "as cores frias responderam. Nenhuma delas pareceu viva; todas ficaram. Primeira folha: {folio}.",
+        artifact: "a tinta escureceu sem molhar."
+      },
+      lockedToken: "[cor apagada]",
+      pages: [
+        {
+          id: "cold-colors-1",
+          folio: "folio I",
+          title: "branco e preto",
+          excerpt: "Vael lum.\nMornak thur.",
+          annotation: "Nota de margem: o branco e luz fria. O preto e sombra fechada que permanece.",
+          studyTriggers: [
+            "Vael lum.",
+            "Branco de luz fraca.",
+            "Mornak thur.",
+            "O preto permanece."
+          ]
+        },
+        {
+          id: "cold-colors-2",
+          folio: "folio II",
+          title: "sangue e raiz",
+          excerpt: "Kaelar en daln.\nVeyral ul drath.",
+          annotation: "Nota de margem: vermelho e cinza se misturam como resto. Verde nao e vida aberta; e raiz sob pedra.",
+          studyTriggers: [
+            "Kaelar en daln.",
+            "Vermelho no cinza.",
+            "Veyral ul drath.",
+            "Verde sob a pedra."
+          ]
+        }
+      ]
     }
   ].map(function (fragment, index) {
     return Object.assign({}, fragment, {
@@ -728,7 +1155,138 @@
     { id: "ora", haater: "ora", pt: "perto", gloss: "perto / proximo", reverse: ["perto", "proximo", "próximo"], fragment: "interval" },
     { id: "keth", haater: "keth", pt: "confirma", gloss: "confirmar / fechar / tornar certo", reverse: ["confirma", "confirmar"], fragment: "certainty" },
     { id: "vek", haater: "vek", pt: "se", gloss: "se / quando", reverse: ["se", "quando"], fragment: "certainty" },
-    { id: "marth", haater: "marth", pt: "peso", gloss: "peso / gravidade / pressao", reverse: ["peso", "gravidade", "pressao", "pressão"], fragment: "stone" }
+    { id: "marth", haater: "marth", pt: "peso", gloss: "peso / gravidade / pressao", reverse: ["peso", "gravidade", "pressao", "pressão"], fragment: "stone" },
+    { id: "ek", haater: "ek", pt: "e", gloss: "e / tambem / junto", reverse: ["e", "tambem", "junto"], fragment: "absent-wind" },
+    { id: "ao", haater: "ao", pt: "para", gloss: "para / em direcao a / contra", reverse: ["para", "direcao", "contra"], fragment: "absent-wind" },
+    { id: "kam", haater: "kam", pt: "com", gloss: "com / junto de / carregando junto", reverse: ["com", "junto"], fragment: "absent-wind" },
+    { id: "dei", haater: "dei", pt: "sem", gloss: "sem / ausente de / vazio de", reverse: ["sem", "ausente", "falta"], fragment: "absent-wind" },
+    { id: "dran", haater: "dran", pt: "por", gloss: "por / atraves / pela causa de", reverse: ["por", "atraves", "causa"], fragment: "absent-wind" },
+    { id: "mak", haater: "mak", pt: "mas", gloss: "mas / porem / corte de sentido", reverse: ["mas", "porem"], fragment: "absent-wind" },
+    { id: "ka", haater: "ka", pt: "pergunta", gloss: "pergunta / duvida ritual", reverse: ["pergunta", "duvida", "interrogacao"], fragment: "absent-wind" },
+    { id: "vak", haater: "vak", pt: "aqui", gloss: "aqui / neste ponto / neste lugar", reverse: ["aqui", "neste", "lugar"], fragment: "absent-wind" },
+    { id: "torak", haater: "torak", pt: "la", gloss: "la / ali / lugar distante", reverse: ["la", "ali", "distante"], fragment: "absent-wind" },
+    { id: "orah", haater: "orah", pt: "longe", gloss: "longe / fora do alcance", reverse: ["longe", "distante"], fragment: "absent-wind" },
+    { id: "akh", haater: "akh", pt: "dentro", gloss: "dentro / no interior", reverse: ["dentro", "interior"], fragment: "absent-wind" },
+    { id: "arakh", haater: "arakh", pt: "fora", gloss: "fora / expulso do interior", reverse: ["fora", "exterior"], fragment: "absent-wind" },
+    { id: "ul", haater: "ul", pt: "sob", gloss: "sob / abaixo / enterrado", reverse: ["sob", "abaixo", "debaixo", "enterrado"], fragment: "absent-wind" },
+    { id: "vorn", haater: "vorn", pt: "vento", gloss: "vento / ar em movimento", reverse: ["vento", "ar em movimento"], fragment: "absent-wind" },
+    { id: "vash", haater: "vash", pt: "agua", gloss: "agua / liquido frio", reverse: ["agua", "liquido"], fragment: "absent-wind" },
+    { id: "vashar", haater: "vashar", pt: "chuva", gloss: "chuva / agua que cai", reverse: ["chuva"], fragment: "absent-wind" },
+    { id: "aern", haater: "aern", pt: "ceu", gloss: "ceu / alto aberto", reverse: ["ceu", "alto"], fragment: "absent-wind" },
+    { id: "nora", haater: "nora", pt: "lua", gloss: "lua / luz fria da noite", reverse: ["lua"], fragment: "absent-wind" },
+    { id: "sael", haater: "sael", pt: "sol", gloss: "sol / fogo alto / luz do dia", reverse: ["sol", "dia"], fragment: "absent-wind" },
+    { id: "thir", haater: "thir", pt: "estrela", gloss: "estrela / ponto de luz distante", reverse: ["estrela", "estrelas"], fragment: "absent-wind" },
+    { id: "garn", haater: "garn", pt: "mao", gloss: "mao / toque / posse fisica", reverse: ["mao", "maos", "toque"], fragment: "absent-wind" },
+    { id: "zorak", haater: "zorak", pt: "olho", gloss: "olho / lugar de ver", reverse: ["olho", "olhos"], fragment: "absent-wind" },
+    { id: "skar", haater: "skar", pt: "pele", gloss: "pele / limite do corpo", reverse: ["pele"], fragment: "absent-wind" },
+    { id: "karn", haater: "karn", pt: "osso", gloss: "osso / estrutura restante", reverse: ["osso", "ossos"], fragment: "absent-wind" },
+    { id: "farn", haater: "farn", pt: "corpo", gloss: "corpo / forma viva inteira", reverse: ["corpo"], fragment: "absent-wind" },
+    { id: "raak", haater: "raak", pt: "corre", gloss: "correr / fugir por impulso", reverse: ["correr", "corre", "fugir", "foge"], fragment: "absent-wind" },
+    { id: "vand", haater: "vand", pt: "anda", gloss: "andar / passar em passos", reverse: ["andar", "anda", "passo", "passos"], fragment: "absent-wind" },
+    { id: "vrok", haater: "vrok", pt: "abre", gloss: "abrir / ceder / destravar", reverse: ["abrir", "abre", "ceder", "destravar"], fragment: "absent-wind" },
+    { id: "drok", haater: "drok", pt: "fecha", gloss: "fechar / selar / calar entrada", reverse: ["fechar", "fecha", "selar", "selado"], fragment: "absent-wind" },
+    { id: "vadr", haater: "vadr", pt: "guarda", gloss: "guardar / segurar / manter consigo", reverse: ["guardar", "guarda", "segurar"], fragment: "absent-wind" },
+    { id: "trak", haater: "trak", pt: "quebra", gloss: "quebrar / partir", reverse: ["quebrar", "quebra", "partir"], fragment: "absent-wind" },
+    { id: "kesh", haater: "kesh", pt: "corta", gloss: "cortar / separar por fio", reverse: ["cortar", "corta", "separar"], fragment: "absent-wind" },
+    { id: "varnar", haater: "varnar", pt: "escreve", gloss: "escrever / prender em registro", reverse: ["escrever", "escreve"], fragment: "absent-wind" },
+    { id: "zavar", haater: "zavar", pt: "le", gloss: "ler / estudar marcas / estudar rastro", reverse: ["ler", "le", "estudar", "estuda"], fragment: "absent-wind" },
+    { id: "mornar", haater: "mornar", pt: "esconde", gloss: "esconder / guardar na sombra", reverse: ["esconder", "esconde"], fragment: "absent-wind" },
+    { id: "lom", haater: "lom", pt: "leve", gloss: "leve / sem peso / leve demais", reverse: ["leve"], fragment: "absent-wind" },
+    { id: "gor", haater: "gor", pt: "grave", gloss: "grave / baixo / pesado de som", reverse: ["grave", "baixo"], fragment: "absent-wind" },
+    { id: "nethar", haater: "nethar", pt: "silencio absoluto", gloss: "silencio absoluto / ausencia total de som", reverse: ["silencio absoluto", "silencio total"], fragment: "absent-wind" },
+    { id: "nethal", haater: "nethal", pt: "segredo", gloss: "segredo / coisa guardada no silencio", reverse: ["segredo"], fragment: "absent-wind" },
+    { id: "kharun", haater: "kharun", pt: "morte antiga", gloss: "Morte antiga / a Morte como forca, nao evento", reverse: ["morte antiga", "entidade da morte"], fragment: "absent-wind" },
+    { id: "toren", haater: "toren", pt: "entao", gloss: "entao / depois disso / assim veio", reverse: ["entao", "assim"], fragment: "dry-words" },
+    { id: "athar", haater: "athar", pt: "acima", gloss: "acima / sobre a superficie", reverse: ["acima", "sobre"], fragment: "dry-words" },
+    { id: "thak", haater: "thak", pt: "sim", gloss: "sim / afirmacao seca / esta feito", reverse: ["sim", "afirmacao"], fragment: "dry-words" },
+    { id: "nusa", haater: "nusa", pt: "nenhum", gloss: "nenhum / ausencia de alguem", reverse: ["nenhum", "ninguem"], fragment: "dry-words" },
+    { id: "ulm", haater: "ulm", pt: "todo", gloss: "todo / inteiro / sem corte", reverse: ["todo", "inteiro"], fragment: "dry-words" },
+    { id: "oth", haater: "oth", pt: "outro", gloss: "outro / diferente / de fora", reverse: ["outro", "diferente"], fragment: "dry-words" },
+    { id: "thes", haater: "thes", pt: "mesmo", gloss: "mesmo / igual em peso", reverse: ["mesmo", "igual"], fragment: "dry-words" },
+    { id: "drom", haater: "drom", pt: "muito", gloss: "muito / excesso pesado", reverse: ["muito", "excesso"], fragment: "dry-words" },
+    { id: "nek", haater: "nek", pt: "pouco", gloss: "pouco / resto pequeno", reverse: ["pouco"], fragment: "dry-words" },
+    { id: "ath", haater: "ath", pt: "agora", gloss: "agora / neste ponto", reverse: ["agora"], fragment: "dry-words" },
+    { id: "dar", haater: "dar", pt: "ja", gloss: "ja / antes do esperado", reverse: ["ja"], fragment: "dry-words" },
+    { id: "ren", haater: "ren", pt: "novamente", gloss: "novamente / de novo / retorno repetido", reverse: ["novamente", "de novo"], fragment: "dry-words" },
+    { id: "sivath", haater: "sivath", pt: "instante", gloss: "hora / instante / ponto de tempo", reverse: ["hora", "instante"], fragment: "dry-words" },
+    { id: "rhast", haater: "rhast", pt: "caminho", gloss: "rastro seguido / caminho", reverse: ["caminho", "rastro"], fragment: "path-seal" },
+    { id: "gorn", haater: "gorn", pt: "porta", gloss: "abertura selada / porta", reverse: ["porta"], fragment: "path-seal" },
+    { id: "sharn", haater: "sharn", pt: "passagem", gloss: "passagem estreita / corredor", reverse: ["passagem", "corredor"], fragment: "path-seal" },
+    { id: "rhastvarn", haater: "rhastvarn", pt: "mapa", gloss: "registro de rastro / mapa", reverse: ["mapa"], fragment: "path-seal" },
+    { id: "vekr", haater: "vekr", pt: "chave", gloss: "aquilo que abre lacre", reverse: ["chave"], fragment: "path-seal" },
+    { id: "drokth", haater: "drokth", pt: "lacre", gloss: "fechamento ritual / selo", reverse: ["selo", "lacre"], fragment: "path-seal" },
+    { id: "korak", haater: "korak", pt: "marca", gloss: "marca / sinal deixado", reverse: ["marca", "sinal"], fragment: "path-seal" },
+    { id: "saelar", haater: "saelar", pt: "dia", gloss: "tempo de luz / dia", reverse: ["dia"], fragment: "cold-matter" },
+    { id: "durn", haater: "durn", pt: "terra", gloss: "terra baixa / solo", reverse: ["terra", "solo"], fragment: "cold-matter" },
+    { id: "tharn", haater: "tharn", pt: "madeira", gloss: "madeira / materia seca", reverse: ["madeira"], fragment: "cold-matter" },
+    { id: "lath", haater: "lath", pt: "folha", gloss: "folha / pagina / lamina fina", reverse: ["folha", "pagina"], fragment: "cold-matter" },
+    { id: "grom", haater: "grom", pt: "ferrugem", gloss: "metal velho / ferrugem", reverse: ["ferrugem"], fragment: "cold-matter" },
+    { id: "dal", haater: "dal", pt: "cinza fria", gloss: "resto apagado / cinza fria", reverse: ["cinza fria", "cinza"], fragment: "cold-matter" },
+    { id: "lum", haater: "lum", pt: "luz fraca", gloss: "brilho distante / luz fraca", reverse: ["luz fraca", "brilho"], fragment: "cold-matter" },
+    { id: "helk", haater: "helk", pt: "gelo", gloss: "frio endurecido / gelo", reverse: ["gelo"], fragment: "cold-matter" },
+    { id: "helna", haater: "helna", pt: "neve", gloss: "frio caido / neve", reverse: ["neve"], fragment: "cold-matter" },
+    { id: "saaren", haater: "saaren", pt: "calor", gloss: "calor de chama", reverse: ["calor", "quente"], fragment: "cold-matter" },
+    { id: "sakh", haater: "sakh", pt: "seco", gloss: "seco / sem agua", reverse: ["seco"], fragment: "cold-matter" },
+    { id: "vashn", haater: "vashn", pt: "molhado", gloss: "tocado por agua", reverse: ["molhado"], fragment: "cold-matter" },
+    { id: "thok", haater: "thok", pt: "cabeca", gloss: "cabeca / cranio", reverse: ["cabeca", "cranio"], fragment: "broken-body" },
+    { id: "gorl", haater: "gorl", pt: "garganta", gloss: "garganta / passagem da voz", reverse: ["garganta"], fragment: "broken-body" },
+    { id: "selak", haater: "selak", pt: "ouvido", gloss: "ouvido / lugar da escuta", reverse: ["ouvido"], fragment: "broken-body" },
+    { id: "garnath", haater: "garnath", pt: "braco", gloss: "extensao da mao / braco", reverse: ["braco"], fragment: "broken-body" },
+    { id: "drek", haater: "drek", pt: "perna", gloss: "apoio que anda / perna", reverse: ["perna"], fragment: "broken-body" },
+    { id: "kora", haater: "kora", pt: "coracao", gloss: "centro quente / coracao", reverse: ["coracao"], fragment: "broken-body" },
+    { id: "halm", haater: "halm", pt: "folego curto", gloss: "ar quebrado / folego curto", reverse: ["folego curto"], fragment: "broken-body" },
+    { id: "sek", haater: "sek", pt: "tremor", gloss: "tremor pequeno / sinal do corpo", reverse: ["tremor"], fragment: "broken-body" },
+    { id: "mir", haater: "mir", pt: "arrepio", gloss: "frio interno / arrepio", reverse: ["arrepio"], fragment: "broken-body" },
+    { id: "dorn", haater: "dorn", pt: "dorme", gloss: "dormir / brasa baixa", reverse: ["dormir", "dorme"], fragment: "broken-body" },
+    { id: "morak", haater: "morak", pt: "engole", gloss: "engolir / comer / consumir", reverse: ["engolir", "comer", "engole"], fragment: "broken-body" },
+    { id: "zorva", haater: "zorva", pt: "procura", gloss: "procurar / ver pelo rastro", reverse: ["procurar", "procura"], fragment: "broken-body" },
+    { id: "garnen", haater: "garnen", pt: "toca", gloss: "tocar / por a mao", reverse: ["tocar", "toca"], fragment: "broken-body" },
+    { id: "tharnak", haater: "tharnak", pt: "carrega", gloss: "carregar / suportar peso", reverse: ["carregar", "carrega"], fragment: "broken-body" },
+    { id: "sov", haater: "sov", pt: "sobe", gloss: "subir / erguer", reverse: ["subir", "sobe", "erguer"], fragment: "broken-body" },
+    { id: "darun", haater: "darun", pt: "desce", gloss: "descer / ir ao baixo", reverse: ["descer", "desce"], fragment: "broken-body" },
+    { id: "larun", haater: "larun", pt: "deixa cair", gloss: "soltar para baixo / deixar cair", reverse: ["deixar cair", "soltar"], fragment: "broken-body" },
+    { id: "tevr", haater: "tevr", pt: "medo", gloss: "medo frio / recuo interno", reverse: ["medo"], fragment: "inner-weight" },
+    { id: "krav", haater: "krav", pt: "raiva", gloss: "raiva / calor agressivo", reverse: ["raiva"], fragment: "inner-weight" },
+    { id: "valm", haater: "valm", pt: "luto", gloss: "tristeza / luto / peso de perda", reverse: ["tristeza", "luto"], fragment: "inner-weight" },
+    { id: "rethar", haater: "rethar", pt: "esperanca", gloss: "brasa que ainda nao apagou", reverse: ["esperanca"], fragment: "inner-weight" },
+    { id: "vayn", haater: "vayn", pt: "paz", gloss: "quietude sem guerra / paz", reverse: ["paz"], fragment: "inner-weight" },
+    { id: "glor", haater: "glor", pt: "gloria", gloss: "brilho falso / gloria", reverse: ["gloria"], fragment: "inner-weight" },
+    { id: "treth", haater: "treth", pt: "verdade", gloss: "coisa firme / verdade", reverse: ["verdade"], fragment: "inner-weight" },
+    { id: "vrel", haater: "vrel", pt: "mentira", gloss: "eco falso / mentira", reverse: ["mentira"], fragment: "inner-weight" },
+    { id: "thurv", haater: "thurv", pt: "juramento", gloss: "promessa que permanece", reverse: ["juramento", "promessa"], fragment: "inner-weight" },
+    { id: "veyrn", haater: "veyrn", pt: "pacto", gloss: "vinculo preso / pacto", reverse: ["pacto", "vinculo"], fragment: "inner-weight" },
+    { id: "kaern", haater: "kaern", pt: "culpa", gloss: "peso no sangue / culpa", reverse: ["culpa"], fragment: "inner-weight" },
+    { id: "kharal", haater: "kharal", pt: "perda", gloss: "perda / queda parcial", reverse: ["perda"], fragment: "inner-weight" },
+    { id: "savana", haater: "savana", pt: "esquecimento", gloss: "memoria negada / esquecimento", reverse: ["esquecimento"], fragment: "inner-weight" },
+    { id: "savar", haater: "savar", pt: "lembranca viva", gloss: "memoria ativa / lembranca viva", reverse: ["lembranca viva", "lembranca"], fragment: "inner-weight" },
+    { id: "orakh", haater: "orakh", pt: "pressagio", gloss: "sinal ruim / aviso antes", reverse: ["pressagio"], fragment: "inner-weight" },
+    { id: "drun", haater: "drun", pt: "fim fechado", gloss: "fim encerrado / sem retorno", reverse: ["fim fechado"], fragment: "inner-weight" },
+    { id: "cer", haater: "cer", pt: "certo", gloss: "certo / fixo / sem desvio", reverse: ["certo", "fixo"], fragment: "inner-weight" },
+    { id: "vrak", haater: "vrak", pt: "erro", gloss: "falha / corte errado", reverse: ["erro", "falha"], fragment: "inner-weight" },
+    { id: "vahrak", haater: "vahrak", pt: "escolha", gloss: "escolha / vontade feita gesto", reverse: ["escolha"], fragment: "inner-weight" },
+    { id: "cerun", haater: "cerun", pt: "destino", gloss: "certeza longa / destino", reverse: ["destino"], fragment: "inner-weight" },
+    { id: "tha", haater: "tha", pt: "voce", gloss: "tu / voce / aquele que escuta", reverse: ["tu", "voce"], fragment: "staying-people" },
+    { id: "sha", haater: "sha", pt: "ele", gloss: "ele / ela / essa presenca", reverse: ["ele", "ela"], fragment: "staying-people" },
+    { id: "shen", haater: "shen", pt: "eles", gloss: "eles / elas / presencas reunidas", reverse: ["eles", "elas"], fragment: "staying-people" },
+    { id: "han", haater: "han", pt: "isso", gloss: "isso / coisa diante da fala", reverse: ["isso"], fragment: "staying-people" },
+    { id: "naren", haater: "naren", pt: "povo", gloss: "nosso coletivo / povo", reverse: ["povo"], fragment: "staying-people" },
+    { id: "ithen", haater: "ithen", pt: "crianca", gloss: "pequeno ser / crianca", reverse: ["crianca"], fragment: "staying-people" },
+    { id: "uren", haater: "uren", pt: "anciao", gloss: "antigo vivo / anciao", reverse: ["anciao"], fragment: "staying-people" },
+    { id: "thurak", haater: "thurak", pt: "aliado", gloss: "aquele que permanece junto", reverse: ["aliado"], fragment: "staying-people" },
+    { id: "khor", haater: "khor", pt: "inimigo", gloss: "presenca contra / inimigo", reverse: ["inimigo"], fragment: "staying-people" },
+    { id: "kharen", haater: "kharen", pt: "morto", gloss: "aquele que caiu / morto", reverse: ["morto"], fragment: "staying-people" },
+    { id: "vadrak", haater: "vadrak", pt: "guardiao", gloss: "aquele que guarda", reverse: ["guardiao"], fragment: "staying-people" },
+    { id: "zavren", haater: "zavren", pt: "leitor", gloss: "aquele que le rastros", reverse: ["leitor"], fragment: "staying-people" },
+    { id: "varnak", haater: "varnak", pt: "escriba", gloss: "aquele que escreve", reverse: ["escriba"], fragment: "staying-people" },
+    { id: "othar", haater: "othar", pt: "estranho", gloss: "outro demais / estranho", reverse: ["estranho"], fragment: "staying-people" },
+    { id: "drathak", haater: "drathak", pt: "mestre", gloss: "base que ensina / mestre", reverse: ["mestre"], fragment: "staying-people" },
+    { id: "vael", haater: "vael", pt: "branco", gloss: "claro frio / branco", reverse: ["branco"], fragment: "cold-colors" },
+    { id: "mornak", haater: "mornak", pt: "preto", gloss: "escuro fechado / preto", reverse: ["preto"], fragment: "cold-colors" },
+    { id: "kaelar", haater: "kaelar", pt: "vermelho", gloss: "cor de sangue / vermelho", reverse: ["vermelho"], fragment: "cold-colors" },
+    { id: "nethvior", haater: "nethvior", pt: "azul", gloss: "roxo frio / azul escuro", reverse: ["azul", "azul escuro"], fragment: "cold-colors" },
+    { id: "saelth", haater: "saelth", pt: "dourado", gloss: "luz de metal / dourado", reverse: ["dourado"], fragment: "cold-colors" },
+    { id: "daln", haater: "daln", pt: "cinza", gloss: "cor de cinza fria", reverse: ["cinza"], fragment: "cold-colors" },
+    { id: "veyral", haater: "veyral", pt: "verde", gloss: "cor de raiz / verde escuro", reverse: ["verde"], fragment: "cold-colors" }
   ];
 
   const PHRASEBOOK = [
@@ -754,6 +1312,43 @@
     { haater: "hela aer preth va talm.", pt: "o frio entra antes da dor." },
     { haater: "khar aer preth va gath.", pt: "a queda comeca antes do golpe." },
     { haater: "khar keth.", pt: "a morte so confirma." },
+    { haater: "hela dei vorn.", pt: "frio sem vento.", requiresFragments: ["absent-wind"] },
+    { haater: "nethar aer.", pt: "o silencio absoluto vem.", requiresFragments: ["absent-wind"] },
+    { haater: "reth ek drath thur.", pt: "a brasa e a pedra permanecem.", requiresFragments: ["absent-wind"] },
+    { haater: "veyr ul drath.", pt: "a raiz sob a pedra.", requiresFragments: ["absent-wind"] },
+    { haater: "garn zavar varn.", pt: "a mao estuda o registro.", requiresFragments: ["absent-wind"] },
+    { haater: "varnar thur.", pt: "a escrita permanece.", requiresFragments: ["absent-wind"] },
+    { haater: "akh drok.", pt: "dentro fecha.", requiresFragments: ["absent-wind"] },
+    { haater: "arakh na vrok.", pt: "fora nao abre.", requiresFragments: ["absent-wind"] },
+    { haater: "kharun vara.", pt: "a morte antiga espera.", requiresFragments: ["absent-wind"] },
+    { haater: "na raak. na veth. keth.", pt: "nao corre. nao chama. confirma.", requiresFragments: ["absent-wind"] },
+    { haater: "ath dar.", pt: "agora ja.", requiresFragments: ["dry-words"] },
+    { haater: "ren toren.", pt: "novamente, entao.", requiresFragments: ["dry-words"] },
+    { haater: "ulm thes.", pt: "inteiro e mesmo.", requiresFragments: ["dry-words"] },
+    { haater: "oth nek.", pt: "outro pouco.", requiresFragments: ["dry-words"] },
+    { haater: "drokth na vrok dei vekr.", pt: "o lacre nao abre sem chave.", requiresFragments: ["path-seal"] },
+    { haater: "rhast en rhastvarn.", pt: "o caminho no mapa.", requiresFragments: ["path-seal"] },
+    { haater: "korak thur.", pt: "a marca permanece.", requiresFragments: ["path-seal"] },
+    { haater: "dal en grom.", pt: "cinza fria na ferrugem.", requiresFragments: ["cold-matter"] },
+    { haater: "lum thur.", pt: "a luz fraca permanece.", requiresFragments: ["cold-matter"] },
+    { haater: "helk en durn.", pt: "gelo na terra.", requiresFragments: ["cold-matter"] },
+    { haater: "helna va aern.", pt: "neve do ceu.", requiresFragments: ["cold-matter"] },
+    { haater: "halm sek.", pt: "o folego curto treme.", requiresFragments: ["broken-body"] },
+    { haater: "mir en skar.", pt: "arrepio na pele.", requiresFragments: ["broken-body"] },
+    { haater: "gorl na veth.", pt: "a garganta nao chama.", requiresFragments: ["broken-body"] },
+    { haater: "selak seln.", pt: "o ouvido escuta.", requiresFragments: ["broken-body"] },
+    { haater: "treth thur.", pt: "a verdade permanece.", requiresFragments: ["inner-weight"] },
+    { haater: "vrel khar.", pt: "a mentira cai.", requiresFragments: ["inner-weight"] },
+    { haater: "tevr en kaern.", pt: "medo na culpa.", requiresFragments: ["inner-weight"] },
+    { haater: "orakh dar.", pt: "o pressagio ja veio.", requiresFragments: ["inner-weight"] },
+    { haater: "naren thur.", pt: "o povo permanece.", requiresFragments: ["staying-people"] },
+    { haater: "uren sava. ithen zor.", pt: "o anciao lembra. a crianca ve.", requiresFragments: ["staying-people"] },
+    { haater: "zavren zor.", pt: "o leitor ve.", requiresFragments: ["staying-people"] },
+    { haater: "varnak varnar.", pt: "o escriba escreve.", requiresFragments: ["staying-people"] },
+    { haater: "vael lum.", pt: "branco de luz fraca.", requiresFragments: ["cold-colors"] },
+    { haater: "mornak thur.", pt: "o preto permanece.", requiresFragments: ["cold-colors"] },
+    { haater: "kaelar en daln.", pt: "vermelho no cinza.", requiresFragments: ["cold-colors"] },
+    { haater: "veyral ul drath.", pt: "verde sob a pedra.", requiresFragments: ["cold-colors"] },
 
     { haater: "ik sava ruun.", pt: "eu lembro da ruina.", requiresFragments: ["book1"] },
     { haater: "rethen na khar.", pt: "as brasas nao cairam.", requiresFragments: ["book1"] },
@@ -825,6 +1420,14 @@
     "A morte espera.",
     "Afaste-se antes de responder ao nome."
   ];
+  const LOST_HINTS = [
+    "Dica I: o site nao cria a pista. Procure primeiro uma linha em Haater nos posts, imagens ou documentos do ARG.",
+    "Dica II: cole a linha na Mesa de Traducao. Palavras repetidas quase sempre sao mais importantes do que frases bonitas.",
+    "Dica III: se a Margem do Artefato disser que uma folha pode ceder, clique em Registrar estudo.",
+    "Dica IV: se uma frase parecer curta, ritual e completa, teste no Lacre Ritual.",
+    "Dica V: anote teorias por folha. O padrao aparece melhor quando voces comparam brasa, pedra, sombra, nome e frio.",
+    "Dica VI: nao tente forcar o nome cedo demais. Algumas palavras foram feitas para voltar tarde."
+  ];
 
   const TOTAL_PAGE_COUNT = FRAGMENTS.reduce(function (total, fragment) {
     return total + fragment.pages.length;
@@ -875,6 +1478,61 @@
       message: "o silencio respondeu antes da traducao completa. convem nao repetir essa linha em voz alta.",
       type: "error",
       title: "silencio do nome"
+    },
+    {
+      id: "rare-dry-return",
+      patterns: ["ath dar.", "ren toren."],
+      requireAll: true,
+      message: "a linha voltou como se ja estivesse atrasada. o agora, no Haater, parece resto e nao presente.",
+      type: "warn",
+      title: "agora atrasado"
+    },
+    {
+      id: "rare-sealed-door",
+      patterns: ["drokth na vrok dei vekr."],
+      message: "o lacre reconheceu a ausencia da chave. nao houve abertura; so confirmacao.",
+      type: "warn",
+      title: "porta que sabe"
+    },
+    {
+      id: "rare-cold-ash",
+      patterns: ["dal en grom.", "lum thur."],
+      requireAll: true,
+      message: "a cinza fria segurou uma luz pequena demais para iluminar. ainda assim, ela ficou.",
+      type: "success",
+      title: "luz na ferrugem"
+    },
+    {
+      id: "rare-broken-body",
+      patterns: ["halm sek.", "mir en skar."],
+      requireAll: true,
+      message: "o corpo respondeu antes da traducao. tremor, pele e folego curto chegaram na ordem errada.",
+      type: "error",
+      title: "corpo antecipado"
+    },
+    {
+      id: "rare-inner-weight",
+      patterns: ["treth thur.", "vrel khar."],
+      requireAll: true,
+      message: "a verdade ficou pesada demais para sair. a mentira caiu sem fazer som.",
+      type: "warn",
+      title: "peso da verdade"
+    },
+    {
+      id: "rare-people-stayed",
+      patterns: ["naren thur.", "uren sava.", "ithen zor."],
+      requireAll: true,
+      message: "o povo respondeu em tres tempos: quem fica, quem lembra, quem ainda ve.",
+      type: "success",
+      title: "povo que ficou"
+    },
+    {
+      id: "rare-cold-colors",
+      patterns: ["vael lum.", "mornak thur."],
+      requireAll: true,
+      message: "a cor voltou fria. branco virou luz fraca; preto virou permanencia.",
+      type: "warn",
+      title: "pigmento apagado"
     }
   ].map(function (reaction) {
     return Object.assign({}, reaction, {
@@ -931,6 +1589,157 @@
       haater: "Hela en vel.\nSom na thur.\nKhar toma pelo certo.",
       portuguese: "O frio entra no folego.\nO som nao fica.\nA morte toma pela certeza.",
       note: "O golpe nao aparece aqui. So os sinais que chegam cedo demais e deixam o resto atrasado."
+    },
+    {
+      id: "secret-dry-return",
+      reactionId: "rare-dry-return",
+      order: 6,
+      label: "margem velada VI",
+      title: "o agora veio velho",
+      haater: "Ath dar.\nRen toren.\nSivath na vara ik.",
+      portuguese: "Agora ja.\nNovamente, entao.\nO instante nao espera por mim.",
+      note: "Solin nao trata tempo como linha. Para ele, algumas coisas chegam depois, mas sempre pareceram ter estado ali."
+    },
+    {
+      id: "secret-sealed-door",
+      reactionId: "rare-sealed-door",
+      order: 7,
+      label: "margem velada VII",
+      title: "a porta nao queria abrir",
+      haater: "Drokth thur.\nVekr ora.\nGorn seln dei sorn.",
+      portuguese: "O lacre permanece.\nA chave esta perto.\nA porta escuta sem som.",
+      note: "A abertura nao e premio. No Haater, uma porta pode saber mais fechada do que aberta."
+    },
+    {
+      id: "secret-cold-ash",
+      reactionId: "rare-cold-ash",
+      order: 8,
+      label: "margem velada VIII",
+      title: "a luz que sobrou na ferrugem",
+      haater: "Dal en grom.\nLum thur.\nSaar na aer ulm.",
+      portuguese: "Cinza fria na ferrugem.\nA luz fraca permanece.\nA chama nao volta inteira.",
+      note: "Este resto parece uma regra de ruina: nem toda luz quer salvar; algumas apenas provam que algo queimou."
+    },
+    {
+      id: "secret-broken-body",
+      reactionId: "rare-broken-body",
+      order: 9,
+      label: "margem velada IX",
+      title: "o corpo soube primeiro",
+      haater: "Halm sek.\nMir en skar.\nGorl na veth.",
+      portuguese: "O folego curto treme.\nArrepio na pele.\nA garganta nao chama.",
+      note: "Quando a Entidade esta perto, o corpo nao explica. Ele reduz movimento, som e ar."
+    },
+    {
+      id: "secret-inner-weight",
+      reactionId: "rare-inner-weight",
+      order: 10,
+      label: "margem velada X",
+      title: "a mentira sem chao",
+      haater: "Treth thur.\nVrel khar.\nCerun na raak.",
+      portuguese: "A verdade permanece.\nA mentira cai.\nO destino nao corre.",
+      note: "A certeza aparece como peso antigo. Nao empurra, nao corre, nao convence. Apenas fica ate o resto ceder."
+    },
+    {
+      id: "secret-people-stayed",
+      reactionId: "rare-people-stayed",
+      order: 11,
+      label: "margem velada XI",
+      title: "quem lembra e quem ve",
+      haater: "Naren thur.\nUren sava.\nIthen zor.",
+      portuguese: "O povo permanece.\nO anciao lembra.\nA crianca ve.",
+      note: "Isto parece menos historia e mais metodo. Um povo sobrevive quando uma memoria antiga encontra um olhar novo."
+    },
+    {
+      id: "secret-cold-colors",
+      reactionId: "rare-cold-colors",
+      order: 12,
+      label: "margem velada XII",
+      title: "cor sem vida",
+      haater: "Vael lum.\nMornak thur.\nVeyral ul drath.",
+      portuguese: "Branco de luz fraca.\nO preto permanece.\nVerde sob a pedra.",
+      note: "As cores nao enfeitam o texto. Elas localizam restos: luz, sombra, sangue, metal e raiz."
+    }
+  ];
+
+  const CONTEXT_STAGES = [
+    {
+      id: "context-links",
+      title: "costuras de ligacao",
+      note: "Palavras pequenas que unem, cortam ou negam sentido. Elas quase nunca parecem importantes ate uma frase depender delas.",
+      words: ["ek", "ao", "kam", "dei", "dran", "mak", "ka"]
+    },
+    {
+      id: "context-places",
+      title: "lugares sem vento",
+      note: "Direcao, distancia e interior. A lingua trata lugar como pressao no corpo, nao como mapa bonito.",
+      words: ["vak", "torak", "orah", "akh", "arakh", "ul", "athar"]
+    },
+    {
+      id: "context-sky",
+      title: "ceu frio",
+      note: "Natureza alta e materia de luz. Procure o que cai, o que brilha e o que se move sem voz.",
+      words: ["vorn", "vash", "vashar", "aern", "nora", "sael", "thir", "saelar"]
+    },
+    {
+      id: "context-body-remains",
+      title: "corpo que sobrou",
+      note: "Partes do corpo aparecem como resto fisico: mao, olho, pele, osso e aquilo que ainda carrega calor.",
+      words: ["garn", "zorak", "skar", "karn", "farn", "thok", "gorl", "selak", "garnath", "drek", "kora"]
+    },
+    {
+      id: "context-gestures",
+      title: "gestos e cortes",
+      note: "Acoes basicas, mas secas: andar, abrir, fechar, guardar, quebrar, escrever e esconder.",
+      words: ["raak", "vand", "vrok", "drok", "vadr", "trak", "kesh", "varnar", "zavar", "mornar"]
+    },
+    {
+      id: "context-silence-time",
+      title: "silencio, peso e tempo",
+      note: "Aqui o idioma fica mais calculado. Leve, grave, segredo, morte antiga e tempo chegam como sintomas.",
+      words: ["lom", "gor", "nethar", "nethal", "kharun", "toren", "thak", "nusa", "ulm", "oth", "thes", "drom", "nek", "ath", "dar", "ren", "sivath"]
+    },
+    {
+      id: "context-path-seal",
+      title: "porta e rastro",
+      note: "Mapa, porta, lacre e chave. Nem toda abertura e libertacao; algumas so confirmam que havia selo.",
+      words: ["rhast", "gorn", "sharn", "rhastvarn", "vekr", "drokth", "korak"]
+    },
+    {
+      id: "context-cold-matter",
+      title: "materia fria",
+      note: "Coisas de cenario entram como resto: terra, madeira, folha, ferrugem, cinza fria, gelo, neve e calor.",
+      words: ["durn", "tharn", "lath", "grom", "dal", "lum", "helk", "helna", "saaren", "sakh", "vashn"]
+    },
+    {
+      id: "context-body-signals",
+      title: "sinais do corpo",
+      note: "Quando a Entidade esta perto, o corpo entende antes da fala. Folego, tremor, pele e movimento viram aviso.",
+      words: ["halm", "sek", "mir", "dorn", "morak", "zorva", "garnen", "tharnak", "sov", "darun", "larun"]
+    },
+    {
+      id: "context-inner-one",
+      title: "peso interior I",
+      note: "Medo, raiva, luto e verdade nao aparecem como filosofia. Aparecem como peso que fica.",
+      words: ["tevr", "krav", "valm", "rethar", "vayn", "glor", "treth", "vrel", "thurv", "veyrn"]
+    },
+    {
+      id: "context-inner-two",
+      title: "peso interior II",
+      note: "Culpa, perda, esquecimento, pressagio, erro e destino. Aqui a certeza fala baixo.",
+      words: ["kaern", "kharal", "savana", "savar", "orakh", "drun", "cer", "vrak", "vahrak", "cerun"]
+    },
+    {
+      id: "context-people",
+      title: "povo que ficou",
+      note: "Pessoas e papeis aparecem como posicao no estudo: quem guarda, quem le, quem escreve, quem ensina.",
+      words: ["tha", "sha", "shen", "han", "naren", "ithen", "uren", "thurak", "khor", "kharen", "vadrak", "zavren", "varnak", "othar", "drathak"]
+    },
+    {
+      id: "context-colors",
+      title: "cores frias",
+      note: "Cor, no Haater, nao enfeita. Ela localiza resto: luz, sangue, sombra, raiz e metal.",
+      words: ["vael", "mornak", "kaelar", "nethvior", "saelth", "daln", "veyral"]
     }
   ];
 
@@ -1018,6 +1827,9 @@
   const targetText = document.getElementById("targetText");
   const workspace = document.getElementById("workspace");
   const openVolumeButton = document.getElementById("openVolumeButton");
+  const insertGuideExample = document.getElementById("insertGuideExample");
+  const lostButton = document.getElementById("lostButton");
+  const lostHint = document.getElementById("lostHint");
   const swapButton = document.getElementById("swapButton");
   const clearButton = document.getElementById("clearButton");
   const copyButton = document.getElementById("copyButton");
@@ -1035,6 +1847,7 @@
   const progressWords = document.getElementById("progressWords");
   const progressFragments = document.getElementById("progressFragments");
   const progressPages = document.getElementById("progressPages");
+  const contextStudyList = document.getElementById("contextStudyList");
   const fragmentList = document.getElementById("fragmentList");
   const recoveredLibrary = document.getElementById("recoveredLibrary");
   const marginNotes = document.getElementById("marginNotes");
@@ -1054,6 +1867,9 @@
   const helpModal = document.getElementById("helpModal");
   const helpBackdrop = document.getElementById("helpBackdrop");
   const helpCloseButton = document.getElementById("helpCloseButton");
+  const studyLayout = document.querySelector(".study-layout");
+  const studyNavButtons = Array.from(document.querySelectorAll("[data-study-target]"));
+  const studyPanels = Array.from(document.querySelectorAll("[data-study-panel]"));
 
   let progress = loadProgress();
   const noteUiState = {
@@ -1061,7 +1877,8 @@
     drafts: {}
   };
   const sessionState = {
-    lastRareReactionId: ""
+    lastRareReactionId: "",
+    lostHintIndex: 0
   };
 
   function fragmentForEntry(entry) {
@@ -1192,6 +2009,7 @@
   function historyMetaForKind(kind) {
     const meta = {
       fragment: { label: "fragmento aberto", mark: "FG", tone: "fragment" },
+      word: { label: "palavra reconstruida", mark: "PL", tone: "word" },
       folio: { label: "folio recuperado", mark: "FL", tone: "folio" },
       note: { label: "margem salva", mark: "MG", tone: "note" },
       export: { label: "caderno exportado", mark: "AR", tone: "export" },
@@ -1256,6 +2074,47 @@
       progress.unlockedPageIds.add(fragment.pages[0].id);
     }
     saveProgress();
+  }
+
+  function maybeRecoverFragmentByContext(fragment) {
+    if (!fragment || fragment.id === "base" || isUnlockedFragment(fragment.id) || !fragment.words.length) {
+      return false;
+    }
+
+    const complete = fragment.words.every(function (wordId) {
+      return isUnlockedWord(wordId);
+    });
+
+    if (!complete) {
+      return false;
+    }
+
+    progress.unlockedFragmentIds.add(fragment.id);
+    if (fragment.pages.length) {
+      progress.unlockedPageIds.add(fragment.pages[0].id);
+    }
+    addHistoryEntry(
+      "fragment",
+      fragment.title,
+      "A tabua foi reconstruida por contexto, sem frase-chave. Primeira folha recuperada: " + (fragment.pages[0] ? fragment.pages[0].folio : "folio I") + "."
+    );
+    return true;
+  }
+
+  function unlockWordByContext(entry) {
+    if (!entry || isUnlockedWord(entry.id)) {
+      return false;
+    }
+
+    progress.unlockedWordIds.add(entry.id);
+    addHistoryEntry(
+      "word",
+      entry.haater + " = " + entry.pt,
+      "Reconstruida por comparacao de contexto. Sentido ritual: " + entry.gloss + "."
+    );
+    maybeRecoverFragmentByContext(FRAGMENT_BY_ID.get(entry.fragment));
+    saveProgress();
+    return true;
   }
 
   function unlockSecret(secretId) {
@@ -1509,6 +2368,266 @@
 
   function multilineHtml(value) {
     return escapeHtml(value).replace(/\r?\n/g, "<br>");
+  }
+
+  function entriesForFragment(fragment) {
+    return fragment.words.map(function (wordId) {
+      return HAATER_TO_ENTRY.get(wordId);
+    }).filter(Boolean);
+  }
+
+  function pageEntriesForFragment(page, fragment) {
+    const allowed = new Set(fragment.words);
+    const seen = new Set();
+    const entries = [];
+    const tokens = tokenize(page.excerpt || "");
+
+    for (const token of tokens) {
+      const entry = HAATER_TO_ENTRY.get(token);
+      if (!entry || !allowed.has(entry.id) || seen.has(entry.id)) {
+        continue;
+      }
+      seen.add(entry.id);
+      entries.push(entry);
+    }
+
+    return entries;
+  }
+
+  function examplesForEntry(entry, fragment) {
+    return PHRASEBOOK.filter(function (phrase) {
+      return phrase.requiredFragments.includes(fragment.id)
+        && phrase.requiredWords.includes(entry.id);
+    }).slice(0, 2);
+  }
+
+  function wordDiscoveryHtml(entry, fragment) {
+    const examples = examplesForEntry(entry, fragment);
+    const exampleHtml = examples.length
+      ? '<div class="word-example"><span>uso</span>' + examples.map(function (example) {
+        return '<p>' + escapeHtml(example.haater) + " -> " + escapeHtml(example.pt) + "</p>";
+      }).join("") + "</div>"
+      : '<div class="word-example muted"><span>uso</span><p>procure esta palavra em novas linhas do ARG.</p></div>';
+
+    return '<article class="word-discovery-card">' +
+      '<div class="word-term"><strong>' + escapeHtml(entry.haater) + "</strong><em>" + escapeHtml(entry.pt) + "</em></div>" +
+      '<p class="word-clue">' + escapeHtml(entry.gloss) + "</p>" +
+      exampleHtml +
+      "</article>";
+  }
+
+  function wordDiscoveryPanelHtml(fragment) {
+    const entries = entriesForFragment(fragment);
+
+    if (!entries.length) {
+      return "";
+    }
+
+    return '<section class="word-discovery-panel">' +
+      '<div class="word-discovery-head">' +
+      "<div>" +
+      '<span class="discovery-kicker">vocabulario recuperado</span>' +
+      "<h4>Palavras que esta tabua ensinou</h4>" +
+      "</div>" +
+      '<span class="word-count">' + entries.length + " termos</span>" +
+      "</div>" +
+      '<p class="discovery-note">Compare os termos com os folios abaixo. O Haater nao entrega sentido por definicao pura; ele repete peso, imagem e contexto.</p>' +
+      '<div class="word-discovery-grid">' +
+      entries.map(function (entry) {
+        return wordDiscoveryHtml(entry, fragment);
+      }).join("") +
+      "</div>" +
+      "</section>";
+  }
+
+  function folioWordsHtml(page, fragment) {
+    const entries = pageEntriesForFragment(page, fragment);
+
+    if (!entries.length) {
+      return "";
+    }
+
+    return '<div class="folio-words">' +
+      '<span class="folio-words-label">palavras desta folha</span>' +
+      entries.map(function (entry) {
+        return '<span class="folio-word-chip"><strong>' + escapeHtml(entry.haater) + "</strong> = " + escapeHtml(entry.pt) + "</span>";
+      }).join("") +
+      "</div>";
+  }
+
+  function contextStageProgress(stage) {
+    const unlocked = stage.words.filter(isUnlockedWord);
+    return {
+      unlocked: unlocked.length,
+      total: stage.words.length,
+      complete: unlocked.length >= stage.words.length
+    };
+  }
+
+  function firstIncompleteContextStageIndex() {
+    for (let index = 0; index < CONTEXT_STAGES.length; index += 1) {
+      if (!contextStageProgress(CONTEXT_STAGES[index]).complete) {
+        return index;
+      }
+    }
+    return -1;
+  }
+
+  function uniqueNormalized(values) {
+    const seen = new Set();
+    const result = [];
+    for (const value of values) {
+      const normalizedValue = normalize(value);
+      if (!normalizedValue || seen.has(normalizedValue)) {
+        continue;
+      }
+      seen.add(normalizedValue);
+      result.push(value);
+    }
+    return result;
+  }
+
+  function acceptedAnswersForEntry(entry) {
+    return uniqueNormalized([entry.pt].concat(entry.reverse || []));
+  }
+
+  function acceptsContextGuess(entry, guess) {
+    const normalizedGuess = normalize(guess);
+    return acceptedAnswersForEntry(entry).some(function (answer) {
+      return normalize(answer) === normalizedGuess;
+    });
+  }
+
+  function escapeRegExp(value) {
+    return String(value).replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+  }
+
+  function redactAnswerText(value, entry) {
+    let output = value;
+    const answers = acceptedAnswersForEntry(entry).sort(function (left, right) {
+      return right.length - left.length;
+    });
+
+    for (const answer of answers) {
+      if (!answer || answer.length < 2) {
+        continue;
+      }
+      output = output.replace(new RegExp("\\b" + escapeRegExp(answer) + "\\b", "gi"), "____");
+    }
+
+    return output;
+  }
+
+  function contextExamplesForEntry(entry) {
+    return PHRASEBOOK.filter(function (phrase) {
+      return phrase.requiredWords.includes(entry.id);
+    }).slice(0, 2);
+  }
+
+  function contextEvidenceHtml(entry) {
+    const examples = contextExamplesForEntry(entry);
+    if (!examples.length) {
+      return '<div class="context-evidence empty-evidence">procure este termo nos proximos rastros do ARG.</div>';
+    }
+
+    return examples.map(function (example) {
+      return '<div class="context-evidence">' +
+        '<code>' + escapeHtml(example.haater) + "</code>" +
+        "<p>" + escapeHtml(redactAnswerText(example.pt, entry)) + "</p>" +
+        "</div>";
+    }).join("");
+  }
+
+  function renderContextStagePanel(stage, index, activeIndex) {
+    const progressState = contextStageProgress(stage);
+    const active = index === activeIndex;
+    const locked = activeIndex !== -1 && index > activeIndex;
+    const stageCard = document.createElement("article");
+    stageCard.className = "context-stage" + (active ? " active" : "") + (progressState.complete ? " complete" : "") + (locked ? " locked" : "");
+
+    const unlockedEntries = stage.words.map(function (wordId) {
+      return HAATER_TO_ENTRY.get(wordId);
+    }).filter(function (entry) {
+      return entry && isUnlockedWord(entry.id);
+    });
+
+    stageCard.innerHTML =
+      '<div class="context-stage-head">' +
+      "<div>" +
+      '<span class="context-kicker">etapa ' + (index + 1) + "</span>" +
+      "<h3>" + escapeHtml(stage.title) + "</h3>" +
+      "</div>" +
+      '<span class="context-progress">' + progressState.unlocked + " / " + progressState.total + " palavras</span>" +
+      "</div>" +
+      "<p>" + escapeHtml(stage.note) + "</p>";
+
+    if (locked) {
+      stageCard.innerHTML += '<div class="context-locked-note">A proxima folha de estudo so aparece quando a etapa anterior estiver reconstruida.</div>';
+    } else if (progressState.complete) {
+      stageCard.innerHTML += '<div class="context-recovered-line">' + unlockedEntries.map(function (entry) {
+        return '<span><strong>' + escapeHtml(entry.haater) + "</strong> = " + escapeHtml(entry.pt) + "</span>";
+      }).join("") + "</div>";
+    } else {
+      const wordGrid = document.createElement("div");
+      wordGrid.className = "context-word-grid";
+
+      stage.words.forEach(function (wordId) {
+        const entry = HAATER_TO_ENTRY.get(wordId);
+        if (!entry) {
+          return;
+        }
+
+        const unlocked = isUnlockedWord(entry.id);
+        const wordCard = document.createElement("article");
+        wordCard.className = "context-word-card" + (unlocked ? " solved" : "");
+        if (unlocked) {
+          wordCard.innerHTML =
+            '<div class="context-word-top">' +
+            "<strong>" + escapeHtml(entry.haater) + "</strong>" +
+            "<span>reconstruida</span>" +
+            "</div>" +
+            '<p class="context-answer">' + escapeHtml(entry.pt) + "</p>" +
+            '<p class="context-clue">' + escapeHtml(entry.gloss) + "</p>";
+        } else {
+          wordCard.innerHTML =
+            '<div class="context-word-top">' +
+            "<strong>" + escapeHtml(entry.haater) + "</strong>" +
+            "<span>termo lacrado</span>" +
+            "</div>" +
+            '<p class="context-clue"><span>rastro de sentido</span>' + escapeHtml(redactAnswerText(entry.gloss, entry)) + "</p>" +
+            contextEvidenceHtml(entry) +
+            '<form class="context-word-form" data-word-id="' + escapeHtml(entry.id) + '">' +
+            '<input type="text" autocomplete="off" spellcheck="false" placeholder="hipotese em portugues...">' +
+            '<button type="submit">Conferir</button>' +
+            '<div class="context-word-feedback" aria-live="polite"></div>' +
+            "</form>";
+        }
+
+        wordGrid.appendChild(wordCard);
+      });
+
+      stageCard.appendChild(wordGrid);
+    }
+
+    return stageCard;
+  }
+
+  function renderContextStudies() {
+    contextStudyList.innerHTML = "";
+    const activeIndex = firstIncompleteContextStageIndex();
+
+    if (activeIndex === -1) {
+      const done = document.createElement("div");
+      done.className = "context-complete";
+      done.innerHTML =
+        "<strong>todas as reconstrucoes de contexto foram concluidas.</strong>" +
+        "<p>O lexico novo foi aprendido por comparacao, nao so por chave ritual. Agora o grupo pode testar frases mais longas na Mesa de Traducao.</p>";
+      contextStudyList.appendChild(done);
+    }
+
+    CONTEXT_STAGES.forEach(function (stage, index) {
+      contextStudyList.appendChild(renderContextStagePanel(stage, index, activeIndex));
+    });
   }
 
   function setNoteStatus(message, type) {
@@ -2056,6 +3175,10 @@
       button.addEventListener("click", function () {
         sourceText.value = example;
         updateTranslation();
+        showStudyPanel("mesa");
+        if (studyLayout) {
+          studyLayout.scrollIntoView({ block: "start", behavior: "smooth" });
+        }
       });
       exampleList.appendChild(button);
     }
@@ -2067,18 +3190,22 @@
     for (const fragment of FRAGMENTS) {
       const unlocked = isUnlockedFragment(fragment.id);
       const pageProgress = fragmentPageProgress(fragment);
+      const discoveredWords = fragment.words.filter(isUnlockedWord);
+      const partial = !unlocked && discoveredWords.length > 0;
       const card = document.createElement("article");
-      card.className = "fragment-card" + (unlocked ? " unlocked" : "");
+      card.className = "fragment-card" + (unlocked ? " unlocked" : "") + (partial ? " partial" : "");
 
-      const title = unlocked ? fragment.title : (fragment.sealedTitle || ("Fragmento Lacrado " + fragment.order));
+      const title = unlocked || partial ? fragment.title : (fragment.sealedTitle || ("Fragmento Lacrado " + fragment.order));
       const description = unlocked
         ? fragment.hint
+        : partial
+          ? "A tabua ainda nao abriu inteira, mas algumas palavras ja foram reconstruidas por contexto."
         : (fragment.sealedHint || ("Ainda fechado. " + fragmentRewardLabel(fragment) + " presas aqui."));
 
       card.innerHTML =
         '<div class="fragment-meta">' +
         "<h3>" + title + "</h3>" +
-        '<span class="fragment-state">' + (unlocked ? (pageProgress.unlocked >= pageProgress.total ? "aberto" : "em estudo") : "lacrado") + "</span>" +
+        '<span class="fragment-state">' + (unlocked ? (pageProgress.unlocked >= pageProgress.total ? "aberto" : "em estudo") : (partial ? "em reconstrucao" : "lacrado")) + "</span>" +
         "</div>" +
         "<p>" + description + "</p>";
 
@@ -2097,7 +3224,14 @@
         }
         words.textContent += " // " + pageProgress.unlocked + "/" + pageProgress.total + " folios cedidos";
       } else {
-        words.textContent = "Frase ritual necessaria. O titulo ainda nao voltou.";
+        if (partial) {
+          words.textContent = discoveredWords.map(function (wordId) {
+            const entry = HAATER_TO_ENTRY.get(wordId);
+            return entry ? entry.haater + " = " + entry.pt : wordId;
+          }).join(" | ") + " // " + discoveredWords.length + "/" + fragment.words.length + " palavras reconstruidas";
+        } else {
+          words.textContent = "Frase ritual ou reconstrucao por contexto necessaria. O titulo ainda nao voltou.";
+        }
       }
 
       card.appendChild(words);
@@ -2133,6 +3267,7 @@
         "</div>" +
         "<p>" + fragment.libraryNote + "</p>" +
         '<div class="recovered-reward">' + fragment.reward + "</div>" +
+        wordDiscoveryPanelHtml(fragment) +
         '<div class="recovered-meta">' + meta + "</div>";
 
       const folioGrid = document.createElement("div");
@@ -2146,6 +3281,7 @@
           '<span class="folio-label">' + page.folio + "</span>" +
           "<h4>" + (pageUnlocked ? page.title : "margem selada") + "</h4>" +
           "<p>" + (pageUnlocked ? page.excerpt : "A costura ainda nao cedeu esta folha.") + "</p>" +
+          (pageUnlocked ? folioWordsHtml(page, fragment) : "") +
           '<div class="folio-note">' + (pageUnlocked ? "margem anotada disponivel abaixo." : "Registra a leitura certa para abrir este folio.") + "</div>";
         folioGrid.appendChild(pageCard);
       }
@@ -2314,6 +3450,7 @@
     progressFragments.textContent = progress.unlockedFragmentIds.size + " / " + FRAGMENTS.length;
     progressPages.textContent = progress.unlockedPageIds.size + " / " + TOTAL_PAGE_COUNT;
     renderFragments();
+    renderContextStudies();
     renderRecoveredLibrary();
     renderMarginNotes();
     renderHistory();
@@ -2387,10 +3524,91 @@
     document.body.classList.add("help-open");
   }
 
+  function showStudyPanel(panelId) {
+    const targetId = panelId || "guia";
+
+    for (const panel of studyPanels) {
+      panel.classList.toggle("active", panel.getAttribute("data-study-panel") === targetId);
+    }
+
+    for (const button of studyNavButtons) {
+      const active = button.getAttribute("data-study-target") === targetId;
+      button.classList.toggle("active", active);
+      button.setAttribute("aria-pressed", active ? "true" : "false");
+    }
+  }
+
   function closeHelpModal() {
     helpModal.classList.remove("open");
     helpModal.setAttribute("aria-hidden", "true");
     document.body.classList.remove("help-open");
+  }
+
+  function insertSafeGuideExample() {
+    sourceText.value = "Kael en drath.";
+    updateTranslation();
+    showStudyPanel("mesa");
+    setArtifactMessage("linha segura presa na mesa. observe as palavras que voltam.", "success");
+    sourceText.focus();
+  }
+
+  function showNextLostHint() {
+    const hint = LOST_HINTS[sessionState.lostHintIndex % LOST_HINTS.length];
+    lostHint.textContent = hint;
+    lostHint.classList.add("active");
+    sessionState.lostHintIndex += 1;
+  }
+
+  function handleContextStudySubmit(event) {
+    const form = event.target.closest(".context-word-form");
+    if (!form) {
+      return;
+    }
+
+    event.preventDefault();
+    const wordId = form.getAttribute("data-word-id");
+    const entry = HAATER_TO_ENTRY.get(wordId);
+    const input = form.querySelector("input");
+    const feedback = form.querySelector(".context-word-feedback");
+    const guess = input ? input.value.trim() : "";
+
+    if (!entry || !guess) {
+      if (feedback) {
+        feedback.textContent = "a margem precisa de uma hipotese.";
+        feedback.className = "context-word-feedback error";
+      }
+      setArtifactMessage("a reconstrucao ficou sem peso.", "error");
+      return;
+    }
+
+    if (!acceptsContextGuess(entry, guess)) {
+      if (feedback) {
+        feedback.textContent = "essa hipotese nao encaixou no rastro.";
+        feedback.className = "context-word-feedback error";
+      }
+      setArtifactMessage("a folha recusou essa traducao.", "warn");
+      return;
+    }
+
+    const fragment = FRAGMENT_BY_ID.get(entry.fragment);
+    const fragmentWasUnlocked = fragment ? isUnlockedFragment(fragment.id) : false;
+    unlockWordByContext(entry);
+    setUnlockMessage("palavra reconstruida por contexto: " + entry.haater + " = " + entry.pt + ".", "success");
+    setArtifactMessage("a traducao veio por repeticao, nao por chave.", "success");
+
+    if (fragment && !fragmentWasUnlocked && isUnlockedFragment(fragment.id)) {
+      setUnlockMessage("a tabua foi reconstruida por contexto: " + fragment.title + ". Primeira folha recuperada.", "success");
+      setArtifactMessage("a costura abriu sem frase-chave.", "success");
+    } else if (fragment && !isUnlockedFragment(fragment.id)) {
+      const remaining = fragment.words.filter(function (word) {
+        return !isUnlockedWord(word);
+      }).length;
+      if (remaining > 0) {
+        setArtifactMessage("a tabua ainda segura " + remaining + " palavra" + (remaining === 1 ? "" : "s") + ".", "warn");
+      }
+    }
+
+    updateAll();
   }
 
   function openVolume() {
@@ -2596,10 +3814,11 @@
       "  }",
       "  .card h3, .card h4 { margin: 10px 0 0; color: var(--ink); }",
       "  .card p { margin: 12px 0 0; color: var(--ink-soft); line-height: 1.7; }",
-      "  .page-grid, .secret-grid, .history-grid { display: grid; gap: 14px; margin-top: 16px; }",
+      "  .page-grid, .secret-grid, .history-grid, .word-discovery-grid { display: grid; gap: 14px; margin-top: 16px; }",
       "  .page-grid { grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); }",
       "  .secret-grid { grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); }",
-      "  .page-card, .secret-card, .history-card {",
+      "  .word-discovery-grid { grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); }",
+      "  .page-card, .secret-card, .history-card, .word-discovery-card {",
       "    border-radius: 18px;",
       "    border: 1px solid var(--line);",
       "    background: rgba(246, 237, 216, 0.72);",
@@ -2607,6 +3826,21 @@
       "  }",
       "  .page-card h4, .secret-card h4, .history-card h4 { font-size: 1rem; }",
       "  .page-card p, .secret-card p, .history-card p { font-size: 0.98rem; }",
+      "  .word-discovery-panel { margin-top: 16px; padding: 16px; border-radius: 20px; border: 1px solid var(--line); background: rgba(255, 249, 236, 0.5); }",
+      "  .word-discovery-head { display: flex; justify-content: space-between; gap: 12px; }",
+      "  .word-discovery-head h4 { margin: 4px 0 0; }",
+      "  .discovery-kicker, .word-count, .folio-words-label, .word-example span { color: var(--ink-soft); text-transform: uppercase; letter-spacing: 0.12em; font-size: 0.74rem; }",
+      "  .word-count { padding: 6px 9px; border-radius: 999px; border: 1px solid var(--line); }",
+      "  .discovery-note, .word-clue { color: var(--ink-soft); }",
+      "  .word-term { display: flex; justify-content: space-between; gap: 10px; }",
+      "  .word-term strong { color: var(--ink); letter-spacing: 0.04em; }",
+      "  .word-term em { color: #4f5c44; font-style: normal; text-align: right; }",
+      "  .word-example { margin-top: 10px; padding-top: 9px; border-top: 1px solid rgba(91, 66, 39, 0.12); }",
+      "  .word-example p { margin: 5px 0 0; color: var(--ink); font-size: 0.9rem; }",
+      "  .folio-words { display: flex; flex-wrap: wrap; gap: 7px; margin-top: 12px; padding-top: 10px; border-top: 1px solid rgba(91, 66, 39, 0.12); }",
+      "  .folio-words-label { flex-basis: 100%; }",
+      "  .folio-word-chip { padding: 6px 8px; border-radius: 999px; border: 1px solid var(--line); background: rgba(255, 249, 236, 0.58); color: var(--ink-soft); font-size: 0.86rem; }",
+      "  .folio-word-chip strong { color: var(--ink); }",
       "  .block {",
       "    margin-top: 12px;",
       "    padding-top: 12px;",
@@ -2621,6 +3855,7 @@
       "  .history-row { display: flex; gap: 12px; align-items: flex-start; }",
       "  .event-mark { min-width: 42px; height: 42px; font-weight: 700; }",
       "  .event-mark.fragment { background: rgba(130, 96, 58, 0.2); }",
+      "  .event-mark.word { background: rgba(91, 111, 74, 0.24); }",
       "  .event-mark.folio { background: rgba(113, 99, 61, 0.24); }",
       "  .event-mark.note { background: rgba(126, 109, 81, 0.22); }",
       "  .event-mark.export { background: rgba(154, 120, 69, 0.24); }",
@@ -2639,12 +3874,12 @@
       "    body { padding: 0; background: #fff; }",
       "    .sheet { box-shadow: none; border-radius: 0; border: none; }",
       "    .print-button { display: none; }",
-      "    .section, .card, .page-card, .secret-card, .history-card { break-inside: avoid; }",
+      "    .section, .card, .page-card, .secret-card, .history-card, .word-discovery-card { break-inside: avoid; }",
       "  }",
       "  @media (max-width: 720px) {",
       "    .hero { padding: 28px 22px 26px; }",
       "    .content { padding: 22px 18px 28px; }",
-      "    .page-grid, .secret-grid, .history-grid { grid-template-columns: 1fr; }",
+      "    .page-grid, .secret-grid, .history-grid, .word-discovery-grid { grid-template-columns: 1fr; }",
       "  }",
       "</style>",
       "</head>",
@@ -2690,6 +3925,7 @@
           '    <span class="pill">' + pageProgress.unlocked + " / " + pageProgress.total + " folios</span>",
           "  </div>",
           "  <p>" + escapeHtml(fragment.libraryNote) + "</p>",
+          wordDiscoveryPanelHtml(fragment),
           '  <div class="page-grid">'
         );
 
@@ -2706,7 +3942,8 @@
             '    <span class="pill">' + escapeHtml(fragment.title) + "</span>",
             "  </div>",
             '  <div class="block"><span class="block-label">excerto</span><p>' + multilineHtml(page.excerpt) + "</p></div>",
-            '  <div class="block"><span class="block-label">nota do artefato</span><p>' + multilineHtml(page.annotation) + "</p></div>"
+            '  <div class="block"><span class="block-label">nota do artefato</span><p>' + multilineHtml(page.annotation) + "</p></div>",
+            folioWordsHtml(page, fragment)
           );
 
           if (noteRecord.text) {
@@ -2881,16 +4118,29 @@
     }
 
     unlockFragment(fragment);
-    addHistoryEntry("fragment", fragment.title, fragment.reward);
+    const recoveredWords = entriesForFragment(fragment);
+    const wordPreview = recoveredWords.slice(0, 6).map(function (entry) {
+      return entry.haater + "=" + entry.pt;
+    }).join(", ");
+    const wordDetail = recoveredWords.length
+      ? fragment.reward + " Palavras recuperadas: " + wordPreview + (recoveredWords.length > 6 ? "..." : "") + "."
+      : fragment.reward;
+    addHistoryEntry("fragment", fragment.title, wordDetail);
     unlockCode.value = "";
+    const firstFolio = fragment.pages.length ? fragment.pages[0].folio : "folio I";
+    const response = fragment.response || {};
+    const wordCountText = recoveredWords.length ? " " + recoveredWords.length + " palavras novas entraram na Biblioteca Recuperada." : "";
+    const unlockResponse = response.unlock
+      ? response.unlock.replace("{folio}", firstFolio) + wordCountText
+      : "o fragmento respondeu. " + fragment.reward + " Primeira folha: " + firstFolio + "." + wordCountText;
     setUnlockMessage(
-      "o fragmento respondeu. " + fragment.reward + " Primeira folha: " + fragment.pages[0].folio + ".",
+      unlockResponse,
       "success"
     );
-    setArtifactMessage("o fragmento respondeu.", "success");
+    setArtifactMessage(response.artifact || "o fragmento respondeu.", "success");
     updateAll();
     updateNoteEditor({
-      preferredPageId: fragment.pages[0].id,
+      preferredPageId: fragment.pages.length ? fragment.pages[0].id : "",
       forceSelection: true
     });
   }
@@ -2936,9 +4186,20 @@
   });
   sourceLanguage.addEventListener("change", updateTranslation);
   targetLanguage.addEventListener("change", updateTranslation);
+  insertGuideExample.addEventListener("click", insertSafeGuideExample);
+  lostButton.addEventListener("click", showNextLostHint);
   helpButton.addEventListener("click", openHelpModal);
   helpBackdrop.addEventListener("click", closeHelpModal);
   helpCloseButton.addEventListener("click", closeHelpModal);
+  studyNavButtons.forEach(function (button) {
+    button.setAttribute("aria-pressed", button.classList.contains("active") ? "true" : "false");
+    button.addEventListener("click", function () {
+      showStudyPanel(button.getAttribute("data-study-target"));
+      if (studyLayout) {
+        studyLayout.scrollIntoView({ block: "start", behavior: "smooth" });
+      }
+    });
+  });
   openVolumeButton.addEventListener("click", openVolume);
   swapButton.addEventListener("click", swapLanguages);
   clearButton.addEventListener("click", clearAll);
@@ -2981,6 +4242,7 @@
   saveNoteButton.addEventListener("click", saveManualNote);
   clearNoteButton.addEventListener("click", clearManualNote);
   exportNotebookButton.addEventListener("click", exportNotebook);
+  contextStudyList.addEventListener("submit", handleContextStudySubmit);
   unlockButton.addEventListener("click", tryUnlockFromInput);
   unlockCode.addEventListener("keydown", function (event) {
     if (event.key === "Enter") {
@@ -2999,6 +4261,7 @@
     }
   });
 
+  showStudyPanel("guia");
   renderExamples();
   setUnlockMessage("O volume comeca com lembrancas incompletas.", "");
   sourceText.value = "";

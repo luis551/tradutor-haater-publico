@@ -48,7 +48,67 @@
         </p>
       </section>
 
-      <section class="translator-card">
+      <section class="study-layout">
+        <aside class="study-sidebar" aria-label="Categorias do estudo">
+          <span class="study-sidebar-kicker">indice do volume</span>
+          <button class="study-nav-button active" type="button" data-study-target="guia"><span>01</span>Guia inicial</button>
+          <button class="study-nav-button" type="button" data-study-target="mesa"><span>02</span>Mesa de traducao</button>
+          <button class="study-nav-button" type="button" data-study-target="lacre"><span>03</span>Lacre ritual</button>
+          <button class="study-nav-button" type="button" data-study-target="reconstrucao"><span>04</span>Reconstrucao</button>
+          <button class="study-nav-button" type="button" data-study-target="folhas"><span>05</span>Folhas lacradas</button>
+          <button class="study-nav-button" type="button" data-study-target="biblioteca"><span>06</span>Biblioteca</button>
+          <button class="study-nav-button" type="button" data-study-target="margens"><span>07</span>Margens anotadas</button>
+          <button class="study-nav-button" type="button" data-study-target="historico"><span>08</span>Historico</button>
+          <button class="study-nav-button" type="button" data-study-target="camara"><span>09</span>Camara velada</button>
+          <button class="study-nav-button" type="button" data-study-target="reconhecidas"><span>10</span>Margens reconhecidas</button>
+          <button class="study-nav-button" type="button" data-study-target="linhas"><span>11</span>Linhas de estudo</button>
+        </aside>
+
+        <div class="study-content">
+      <section class="starter-guide study-panel active" data-study-panel="guia" aria-labelledby="starterTitle">
+        <article class="guide-card guide-card-primary">
+          <span class="guide-kicker">nota do pesquisador anterior</span>
+          <h2 id="starterTitle">Primeiro estudo</h2>
+          <p>
+            Este volume nao e o enigma inteiro. Ele e o tradutor, o caderno e a margem.
+            Procure frases em Haater fora daqui, cole na mesa de traducao e observe o que o artefato reconhece.
+          </p>
+          <div class="guide-actions">
+            <button id="insertGuideExample" type="button">Testar linha segura</button>
+            <button id="lostButton" type="button" class="ghost-button">Estou perdido</button>
+          </div>
+          <p id="lostHint" class="lost-hint">
+            Se travar, use o botao de dica. Ele nao entrega a resposta, so aponta para o proximo gesto.
+          </p>
+        </article>
+
+        <article class="guide-card">
+          <span class="guide-kicker">ordem de leitura</span>
+          <h3>Como estudar uma pista</h3>
+          <ol class="study-steps">
+            <li>Encontre uma frase em Haater nos posts, imagens ou documentos do ARG.</li>
+            <li>Cole a frase na Mesa de Traducao.</li>
+            <li>Veja palavras reconhecidas e lacunas no Folio Traduzido.</li>
+            <li>Se a Margem do Artefato mexer, clique em Registrar estudo.</li>
+            <li>Se a frase parecer ritual, tente no Lacre Ritual.</li>
+            <li>Use a Reconstrucao por Contexto para deduzir palavras sem depender de chave ritual.</li>
+            <li>Quando uma tabua abrir, compare as palavras recuperadas com os folios dela.</li>
+            <li>Salve teorias nas Margens Anotadas para nao perder padroes.</li>
+          </ol>
+        </article>
+
+        <article class="guide-card guide-card-compact">
+          <span class="guide-kicker">tres usos</span>
+          <h3>O que cada parte faz</h3>
+          <p><strong>Mesa de Traducao:</strong> serve para testar qualquer texto.</p>
+          <p><strong>Lacre Ritual:</strong> serve para frases que abrem novas palavras.</p>
+          <p><strong>Reconstrucao por Contexto:</strong> serve para deduzir traducao por repeticao, rastro e comparacao.</p>
+          <p><strong>Biblioteca Recuperada:</strong> mostra quais palavras cada tabua ensinou, com sentido e exemplos.</p>
+          <p><strong>Registrar estudo:</strong> transforma uma linha certa em folha recuperada.</p>
+        </article>
+      </section>
+
+      <section class="translator-card study-panel" data-study-panel="mesa">
         <div class="toolbar">
           <div class="toolbar-group">
             <label class="field">
@@ -82,13 +142,13 @@
         <div class="panes">
           <section class="pane" data-folio="I">
             <div class="pane-header">
-              <h2>Folio de Entrada</h2>
-              <span class="pane-tag">folio I</span>
+              <h2>Mesa de Traducao</h2>
+              <span class="pane-tag">cole pistas aqui</span>
             </div>
             <textarea
               id="sourceText"
               spellcheck="false"
-              placeholder="Copie uma linha do manuscrito ou escreva em Haater Antigo..."
+              placeholder="Cole aqui uma linha em Haater encontrada fora do site. Exemplo seguro: Kael en drath."
             ></textarea>
           </section>
 
@@ -125,27 +185,27 @@
         </div>
       </section>
 
-      <section class="progress-board">
+      <section class="progress-board study-panel" data-study-panel="lacre">
         <article class="detail-card">
           <div class="detail-header">
-            <h2>Indice Lacrado</h2>
+            <h2>Lacre Ritual</h2>
             <p>Nem todo o lexico voltou inteiro. Parte dele ainda precisa ser recuperada como quem recompõe um livro queimado.</p>
           </div>
 
           <div class="unlock-controls">
             <label class="field unlock-field">
-              <span>Frase de desbloqueio</span>
+              <span>Frase ritual de abertura</span>
               <input
                 id="unlockCode"
                 type="text"
                 autocomplete="off"
                 spellcheck="false"
-                placeholder="Digite a frase ritual ou um código..."
+                placeholder="Use aqui apenas frases que parecam chaves rituais..."
               >
             </label>
 
             <div class="unlock-actions">
-              <button id="unlockButton" type="button">Desbloquear</button>
+              <button id="unlockButton" type="button">Abrir lacre</button>
               <button id="resetProgressButton" type="button" class="ghost-button">Resetar progresso</button>
             </div>
           </div>
@@ -169,7 +229,19 @@
             </div>
           </div>
         </article>
+      </section>
 
+      <section class="progress-board study-panel" data-study-panel="reconstrucao">
+        <article class="detail-card context-reconstruction">
+          <div class="detail-header">
+            <h2>Reconstrucao por Contexto</h2>
+            <p>Descubra palavras sem usar frase-chave. Compare rastros, leia o sentido rasurado e registre uma hipotese de traducao.</p>
+          </div>
+          <div id="contextStudyList" class="context-study-list"></div>
+        </article>
+      </section>
+
+      <section class="progress-board study-panel" data-study-panel="folhas">
         <article class="detail-card">
           <div class="detail-header">
             <h2>Folhas Lacradas</h2>
@@ -179,7 +251,7 @@
         </article>
       </section>
 
-      <section class="library-board">
+      <section class="library-board study-panel" data-study-panel="biblioteca">
         <article class="detail-card">
           <div class="detail-header">
             <h2>Biblioteca Recuperada</h2>
@@ -189,7 +261,7 @@
         </article>
       </section>
 
-      <section class="margin-board">
+      <section class="margin-board study-panel" data-study-panel="margens">
         <article class="detail-card">
           <div class="detail-header">
             <h2>Margens Anotadas</h2>
@@ -267,7 +339,7 @@
         </article>
       </section>
 
-      <section class="history-board">
+      <section class="history-board study-panel" data-study-panel="historico">
         <article class="detail-card">
           <div class="detail-header">
             <h2>Historico do Estudo</h2>
@@ -277,7 +349,7 @@
         </article>
       </section>
 
-      <section class="secret-board">
+      <section class="secret-board study-panel" data-study-panel="camara">
         <article class="detail-card">
           <div class="detail-header">
             <div>
@@ -290,7 +362,7 @@
         </article>
       </section>
 
-      <section class="details">
+      <section class="details study-panel" data-study-panel="reconhecidas">
         <article class="detail-card">
           <div class="detail-header">
             <h2>Margens Reconhecidas</h2>
@@ -298,7 +370,9 @@
           </div>
           <div id="matchesList" class="chips"></div>
         </article>
+      </section>
 
+      <section class="details study-panel" data-study-panel="linhas">
         <article class="detail-card">
           <div class="detail-header">
             <h2>Linhas de Estudo</h2>
@@ -306,6 +380,8 @@
           </div>
           <div id="exampleList" class="chips"></div>
         </article>
+      </section>
+        </div>
       </section>
     </main>
 
@@ -333,6 +409,11 @@
           <article class="help-block">
             <h3>Sobre a leitura</h3>
             <p>Copie linhas curtas. O texto antigo costuma reagir melhor a fragmentos inteiros do que a perguntas modernas. Quanto menos pressa, melhor a resposta.</p>
+          </article>
+
+          <article class="help-block">
+            <h3>O que este volume e</h3>
+            <p>Ele nao inventa pistas sozinho. As pistas aparecem fora daqui. Use este lugar para traduzir, testar lacres, registrar folhas e guardar teorias.</p>
           </article>
 
           <article class="help-block">
